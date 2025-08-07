@@ -16,7 +16,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@id": "https://raquelrodrigues.com.br/#psychologist",
             "name": "Raquel Rodrigues",
             "jobTitle": "Psicóloga",
-            "description": "Psicóloga especializada em terapia cognitivo-comportamental, ansiedade, depressão e terapia de casal",
+            "description": "Psicóloga especializada em terapia cognitivo-comportamental online, ansiedade, depressão e terapia de casal por videochamada",
             "url": "https://raquelrodrigues.com.br",
             "image": "https://raquelrodrigues.com.br/raquel-rodrigues.jpg",
             "telephone": "+5521975755345",
@@ -75,7 +75,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@type": "ProfessionalService",
             "@id": "https://raquelrodrigues.com.br/#organization",
             "name": "Raquel Rodrigues - Psicóloga",
-            "description": "Consultório de psicologia especializado em terapia cognitivo-comportamental, atendimento de ansiedade, depressão e terapia de casal",
+            "description": "Consultório de psicologia online especializado em terapia cognitivo-comportamental por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
             "url": "https://raquelrodrigues.com.br",
             "telephone": "+5521975755345",
             "email": "contato@raquelrodrigues.com",
@@ -125,7 +125,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Terapia Individual",
-                    "description": "Atendimento psicológico individual com foco em ansiedade, depressão e desenvolvimento pessoal"
+                    "description": "Atendimento psicológico individual online por videochamada com foco em ansiedade, depressão e desenvolvimento pessoal"
                   },
                   "price": "150",
                   "priceCurrency": "BRL"
@@ -135,7 +135,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Terapia de Casal",
-                    "description": "Atendimento especializado para casais com problemas de relacionamento"
+                    "description": "Atendimento online especializado para casais com problemas de relacionamento através de videochamada"
                   },
                   "price": "200",
                   "priceCurrency": "BRL"
@@ -145,7 +145,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Desenvolvimento Pessoal",
-                    "description": "Sessões focadas no crescimento pessoal e autoconhecimento"
+                    "description": "Sessões online focadas no crescimento pessoal e autoconhecimento através de videochamada"
                   },
                   "price": "130",
                   "priceCurrency": "BRL"

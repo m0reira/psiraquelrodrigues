@@ -23,9 +23,9 @@ function ServicesPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Serviços Oferecidos
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Atendimento psicológico especializado e personalizado para suas necessidades,
-            com foco no seu bem-estar e desenvolvimento pessoal.
+                    <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            Atendimento psicológico online e presencial especializado para suas necessidades,
+            com foco no seu bem-estar através de videochamadas seguras e eficazes.
           </p>
         </div>
       </section>
@@ -42,8 +42,8 @@ function ServicesPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Terapia Individual
               </h3>
-              <p className="text-gray-700 mb-6">
-                Atendimento personalizado para questões como ansiedade, depressão,
+                            <p className="text-gray-700 mb-6">
+                Atendimento online personalizado por videochamada para questões como ansiedade, depressão,
                 autoestima, relacionamentos e desenvolvimento pessoal.
               </p>
               <ul className="space-y-3 mb-6">
@@ -95,9 +95,9 @@ function ServicesPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Terapia de Casal
               </h3>
-              <p className="text-gray-700 mb-6">
-                Trabalho especializado para casais que desejam melhorar a comunicação,
-                resolver conflitos e fortalecer o relacionamento.
+                            <p className="text-gray-700 mb-6">
+                Trabalho online especializado por videochamada para casais que desejam melhorar a comunicação,
+                resolver conflitos e fortalecer o relacionamento no conforto de casa.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center space-x-2">
@@ -148,9 +148,9 @@ function ServicesPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Desenvolvimento Pessoal
               </h3>
-              <p className="text-gray-700 mb-6">
-                Sessões focadas no crescimento pessoal, autoconhecimento e
-                desenvolvimento de habilidades emocionais.
+                            <p className="text-gray-700 mb-6">
+                Sessões online focadas no crescimento pessoal, autoconhecimento e
+                desenvolvimento de habilidades emocionais através de videochamada.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center space-x-2">
@@ -204,11 +204,42 @@ function ServicesPage() {
               Modalidades de Atendimento
             </h2>
             <p className="text-xl text-gray-600">
-              Escolha a modalidade que melhor se adapta à sua rotina e preferências
+              Priorizamos o atendimento online pela flexibilidade e conforto, mas também oferecemos presencial
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-xl shadow-lg border-2 border-purple-200">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mr-4">
+                  <Video className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-2xl font-semibold">Atendimento Online ⭐</h3>
+              </div>
+              <p className="text-gray-700 mb-6 font-medium">
+                Nossa modalidade principal: Sessões por videochamada com a mesma qualidade do atendimento presencial,
+                no conforto e segurança da sua casa.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span className="font-medium">Máxima flexibilidade de horários</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span className="font-medium">Economia de tempo e deslocamento</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span className="font-medium">Plataforma segura e confidencial</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span className="font-medium">Conforto do seu ambiente</span>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
@@ -217,8 +248,8 @@ function ServicesPage() {
                 <h3 className="text-2xl font-semibold">Atendimento Presencial</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                Consultas em consultório localizado em região central de São Paulo,
-                com ambiente acolhedor e privativo.
+                Consultas em consultório localizado no Rio de Janeiro,
+                com ambiente acolhedor e privativo para quem prefere o contato presencial.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
@@ -231,34 +262,7 @@ function ServicesPage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
-                  <span>Estacionamento disponível</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                  <Video className="w-6 h-6 text-purple-600" />
-                </div>
-                <h3 className="text-2xl font-semibold">Atendimento Online</h3>
-              </div>
-              <p className="text-gray-600 mb-6">
-                Sessões por videochamada com a mesma qualidade do atendimento presencial,
-                no conforto da sua casa.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-5 h-5 text-green-500" />
-                  <span>Flexibilidade de horários</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-5 h-5 text-green-500" />
-                  <span>Economia de tempo e deslocamento</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-5 h-5 text-green-500" />
-                  <span>Plataforma segura e confidencial</span>
+                  <span>Horários mais limitados</span>
                 </div>
               </div>
             </div>

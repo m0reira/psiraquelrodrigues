@@ -8,9 +8,10 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 - **Totalmente Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
 - **Performance Otimizada**: Construído com Vite para carregamento rápido
 - **Navegação Fluida**: TanStack Router para navegação client-side sem recarregamento
+- **Foco em Atendimento Online**: Prioriza videochamadas e consultas virtuais
 - **Integração WhatsApp**: Botão flutuante e links diretos para WhatsApp Business
 - **Analytics Integrado**: Rastreamento de interações e conversões do WhatsApp
-- **SEO Avançado**: Meta tags dinâmicas, structured data, sitemap, robots.txt e breadcrumbs
+- **SEO Avançado**: Meta tags dinâmicas focadas em "psicologia online", structured data, sitemap, robots.txt e breadcrumbs
 - **Open Graph**: Otimizado para compartilhamento em redes sociais
 - **Acessibilidade**: Componentes acessíveis e semântica HTML adequada
 
@@ -89,10 +90,10 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 - **Business Schema**: Informações estruturadas do negócio
 
 ### Páginas Otimizadas
-- **Início**: "Raquel Rodrigues - Psicóloga | Terapia Cognitivo-Comportamental RJ"
-- **Sobre**: "Sobre Raquel Rodrigues - Psicóloga Especialista em TCC | Rio de Janeiro"
-- **Serviços**: "Serviços de Psicologia | Terapia Individual, Casal e Online - RJ"
-- **Contato**: "Contato - Agende sua Consulta | Psicóloga Raquel Rodrigues RJ"
+- **Início**: "Raquel Rodrigues - Psicóloga Online | Terapia Cognitivo-Comportamental RJ"
+- **Sobre**: "Sobre Raquel Rodrigues - Psicóloga Online Especialista em TCC | Rio de Janeiro"
+- **Serviços**: "Psicologia Online | Terapia Individual, Casal por Videochamada - RJ"
+- **Contato**: "Agende sua Consulta Online | Psicóloga Raquel Rodrigues RJ"
 
 ### Performance
 - **Preconnect**: Links de pré-conexão para recursos externos

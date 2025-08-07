@@ -13,13 +13,15 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                            <h1 className="text-4xl md:text-6xl font-bold mb-6">
                 Cuidando da sua
                 <span className="block text-yellow-300">saúde mental</span>
+                <span className="block text-2xl md:text-3xl text-blue-200 mt-2">online ou presencial</span>
               </h1>
               <p className="text-xl mb-8 text-blue-100">
-                Psicóloga especializada em terapia cognitivo-comportamental,
-                oferecendo um espaço seguro para seu desenvolvimento pessoal e bem-estar emocional.
+                Psicóloga especializada em terapia cognitivo-comportamental online e presencial,
+                oferecendo consultas por videochamada com a mesma eficácia do atendimento presencial.
+                Flexibilidade de horários e conforto da sua casa.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -52,9 +54,10 @@ function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Como posso te ajudar?
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ofereço atendimento psicológico especializado para diversas demandas,
+                        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Ofereço atendimento psicológico online e presencial para diversas demandas,
               sempre com uma abordagem humanizada e baseada em evidências científicas.
+              Consultas por videochamada com a mesma qualidade terapêutica.
             </p>
           </div>
 
@@ -64,9 +67,9 @@ function HomePage() {
                 <Heart className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Ansiedade e Depressão</h3>
-              <p className="text-gray-600">
-                Tratamento especializado para transtornos de ansiedade e depressão,
-                utilizando técnicas comprovadas da terapia cognitivo-comportamental.
+                            <p className="text-gray-600">
+                Tratamento online e presencial para transtornos de ansiedade e depressão,
+                utilizando técnicas comprovadas da terapia cognitivo-comportamental por videochamada.
               </p>
             </div>
 
@@ -75,9 +78,9 @@ function HomePage() {
                 <Users className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Terapia de Casal</h3>
-              <p className="text-gray-600">
-                Acompanhamento para casais que desejam melhorar a comunicação,
-                resolver conflitos e fortalecer o relacionamento.
+                            <p className="text-gray-600">
+                Acompanhamento online para casais que desejam melhorar a comunicação,
+                resolver conflitos e fortalecer o relacionamento através de videochamada.
               </p>
             </div>
 
@@ -86,9 +89,9 @@ function HomePage() {
                 <Brain className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Desenvolvimento Pessoal</h3>
-              <p className="text-gray-600">
-                Sessões focadas no autoconhecimento, crescimento pessoal e
-                desenvolvimento de habilidades emocionais e sociais.
+                            <p className="text-gray-600">
+                Sessões online focadas no autoconhecimento, crescimento pessoal e
+                desenvolvimento de habilidades emocionais através de videochamada.
               </p>
             </div>
           </div>
@@ -144,8 +147,8 @@ function HomePage() {
                     <MapPin className="w-6 h-6 text-green-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Atendimento Presencial e Online</h4>
-                    <p className="text-gray-600">Consultório em São Paulo e videochamada</p>
+                    <h4 className="font-semibold">Atendimento Online Prioritário</h4>
+                    <p className="text-gray-600">Videochamada segura e consultório no RJ</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -153,8 +156,8 @@ function HomePage() {
                     <Phone className="w-6 h-6 text-purple-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Primeira Consulta</h4>
-                    <p className="text-gray-600">Avaliação inicial gratuita de 30 minutos</p>
+                    <h4 className="font-semibold">Primeira Consulta Online</h4>
+                    <p className="text-gray-600">Avaliação inicial gratuita por videochamada</p>
                   </div>
                 </div>
               </div>

@@ -95,30 +95,30 @@ export const useSEO = ({
 // Predefined SEO configurations for different pages
 export const seoConfigs = {
   home: {
-    title: 'Raquel Rodrigues - Psicóloga | Terapia Cognitivo-Comportamental RJ',
-    description: 'Psicóloga Raquel Rodrigues no Rio de Janeiro. Especialista em terapia cognitivo-comportamental, ansiedade, depressão e terapia de casal. Atendimento presencial e online. Primeira consulta gratuita.',
-    keywords: 'psicóloga, rio de janeiro, terapia cognitivo-comportamental, ansiedade, depressão, terapia de casal, psicologia, atendimento online, primeira consulta gratuita',
+    title: 'Raquel Rodrigues - Psicóloga Online | Terapia Cognitivo-Comportamental RJ',
+    description: 'Psicóloga Raquel Rodrigues - Atendimento online e presencial no Rio de Janeiro. Especialista em terapia cognitivo-comportamental, ansiedade, depressão e terapia de casal. Consultas por videochamada com a mesma eficácia. Primeira consulta gratuita.',
+    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia cognitivo-comportamental, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, primeira consulta gratuita',
     canonical: 'https://raquelrodrigues.com.br'
   },
 
   sobre: {
-    title: 'Sobre Raquel Rodrigues - Psicóloga Especialista em TCC | Rio de Janeiro',
-    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Formada pela USP, especialista em Terapia Cognitivo-Comportamental com mais de 8 anos de experiência clínica no Rio de Janeiro.',
-    keywords: 'raquel rodrigues, psicóloga usp, terapia cognitivo-comportamental, formação psicologia, experiência clínica, rio de janeiro',
+    title: 'Sobre Raquel Rodrigues - Psicóloga Online Especialista em TCC | Rio de Janeiro',
+    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Formada pela USP, especialista em Terapia Cognitivo-Comportamental com mais de 8 anos de experiência clínica. Atendimento online e presencial no Rio de Janeiro com a mesma qualidade terapêutica.',
+    keywords: 'raquel rodrigues, psicóloga online usp, terapia cognitivo-comportamental online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
     canonical: 'https://raquelrodrigues.com.br/sobre'
   },
 
   servicos: {
-    title: 'Serviços de Psicologia | Terapia Individual, Casal e Online - RJ',
-    description: 'Conheça os serviços de psicologia oferecidos: Terapia Individual (R$ 150), Terapia de Casal (R$ 200), Desenvolvimento Pessoal (R$ 130). Atendimento presencial e online no Rio de Janeiro.',
-    keywords: 'terapia individual, terapia de casal, desenvolvimento pessoal, psicologia online, preços psicologia, rio de janeiro, atendimento psicológico',
+    title: 'Psicologia Online | Terapia Individual, Casal por Videochamada - RJ',
+    description: 'Serviços de psicologia online e presencial: Terapia Individual por videochamada (R$ 150), Terapia de Casal online (R$ 200), Desenvolvimento Pessoal virtual (R$ 130). Atendimento psicológico à distância com a mesma eficácia do presencial.',
+    keywords: 'psicologia online, terapia individual online, terapia de casal online, desenvolvimento pessoal online, videochamada psicologia, consulta virtual, preços psicologia online, rio de janeiro, atendimento psicológico virtual',
     canonical: 'https://raquelrodrigues.com.br/servicos'
   },
 
   contato: {
-    title: 'Contato - Agende sua Consulta | Psicóloga Raquel Rodrigues RJ',
-    description: 'Entre em contato com a psicóloga Raquel Rodrigues. Primeira consulta gratuita. Atendimento no Rio de Janeiro. WhatsApp: (21) 97575-5345. Agende sua sessão de psicologia.',
-    keywords: 'contato psicóloga, agendar consulta, primeira consulta gratuita, whatsapp psicóloga, rio de janeiro, raquel rodrigues',
+    title: 'Agende sua Consulta Online | Psicóloga Raquel Rodrigues RJ',
+    description: 'Agende sua consulta online ou presencial com a psicóloga Raquel Rodrigues. Primeira consulta gratuita por videochamada. Atendimento virtual e presencial no Rio de Janeiro. WhatsApp: (21) 97575-5345. Flexibilidade de horários para consultas online.',
+    keywords: 'agendar consulta online, psicóloga online, primeira consulta gratuita online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online',
     canonical: 'https://raquelrodrigues.com.br/contato'
   }
 }
