@@ -19,8 +19,8 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "description": "Psicóloga especializada em terapia cognitivo-comportamental online, ansiedade, depressão e terapia de casal por videochamada",
             "url": "https://raquelrodrigues.com.br",
             "image": "https://raquelrodrigues.com.br/raquel-rodrigues.jpg",
-            "telephone": "+5521975755345",
-            "email": "contato@raquelrodrigues.com",
+            "telephone": "+552196955369",
+            "email": "psi.raquelrodrigues@gmail.com",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Rua Augusta, 1234 - Sala 567",
@@ -77,8 +77,8 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "name": "Raquel Rodrigues - Psicóloga",
             "description": "Consultório de psicologia online especializado em terapia cognitivo-comportamental por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
             "url": "https://raquelrodrigues.com.br",
-            "telephone": "+5521975755345",
-            "email": "contato@raquelrodrigues.com",
+            "telephone": "+552196955369",
+            "email": "psi.raquelrodrigues@gmail.com",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Rua Augusta, 1234 - Sala 567",
@@ -199,7 +199,6 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
       script.text = JSON.stringify(schema)
       script.id = `structured-data-${type}`
 
-      // Remove existing script if present
       const existing = document.getElementById(`structured-data-${type}`)
       if (existing) {
         existing.remove()
@@ -216,12 +215,11 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
     }
   }, [type, data])
 
-  return null // This component doesn't render anything visible
+  return null
 }
 
 export default StructuredData
 
-// Hook para facilitar o uso
 export const useStructuredData = (type: StructuredDataProps['type'], data?: any) => {
   useEffect(() => {
     const component = StructuredData({ type, data })

@@ -69,7 +69,7 @@ function RootComponent() {
               {/* Contact Info */}
               <div className="hidden lg:flex items-center space-x-4">
                 <a
-                  href="https://wa.me/552197575345?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                  href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors cursor-pointer"
@@ -77,16 +77,16 @@ function RootComponent() {
                   onClick={() => trackClick(undefined, 'home_page')}
                 >
                   <Phone className="h-4 w-4" />
-                  <span>(21) 97575-5345</span>
+                  <span>(21) 9 6955-3695</span>
                   <MessageCircle className="h-3 w-3 text-green-500" />
                 </a>
                 <a
-                  href="mailto:contato@raquelrodrigues.com?subject=Agendamento de Consulta"
+                  href="mailto:psi.raquelrodrigues@gmail.com?subject=Agendamento de Consulta"
                   className="flex items-center space-x-2 text-sm text-gray-600 hover:text-blue-600 transition-colors"
                   title="Clique para enviar e-mail"
                 >
                   <Mail className="h-4 w-4" />
-                  <span>contato@raquelrodrigues.com</span>
+                  <span>psi.raquelrodrigues@gmail.com</span>
                 </a>
               </div>
 
@@ -134,7 +134,7 @@ function RootComponent() {
                 </nav>
                 <div className="mt-4 pt-4 border-t space-y-2">
                   <a
-                    href="https://wa.me/552197575345?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                    href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors"
@@ -145,17 +145,17 @@ function RootComponent() {
                     }}
                   >
                     <Phone className="h-4 w-4" />
-                    <span>(21) 97575-5345</span>
+                    <span>(21) 9 6955-3695</span>
                     <MessageCircle className="h-3 w-3 text-green-500" />
                   </a>
                   <a
-                    href="mailto:contato@raquelrodrigues.com?subject=Agendamento de Consulta"
+                    href="mailto:psi.raquelrodrigues@gmail.com?subject=Agendamento de Consulta"
                     className="flex items-center space-x-2 text-sm text-gray-600 hover:text-blue-600 transition-colors"
                     title="Clique para enviar e-mail"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     <Mail className="h-4 w-4" />
-                    <span>contato@raquelrodrigues.com</span>
+                    <span>psi.raquelrodrigues@gmail.com</span>
                   </a>
                 </div>
               </div>
@@ -179,7 +179,7 @@ function RootComponent() {
                   oferecendo atendimento humanizado e personalizado.
                 </p>
                 <a
-                  href="https://wa.me/552197575345?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                  href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-gray-300 hover:text-green-400 transition-colors"
@@ -187,16 +187,16 @@ function RootComponent() {
                   onClick={() => trackClick(undefined, 'home_page')}
                 >
                   <Phone className="h-4 w-4" />
-                  <span>(21) 97575-5345</span>
+                  <span>(21) 9 6955-3695</span>
                   <MessageCircle className="h-3 w-3 text-green-500" />
                 </a>
                 <a
-                  href="mailto:contato@raquelrodrigues.com?subject=Agendamento de Consulta"
+                  href="mailto:psi.raquelrodrigues@gmail.com?subject=Agendamento de Consulta"
                   className="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition-colors mt-2"
                   title="Clique para enviar e-mail"
                 >
                   <Mail className="h-4 w-4" />
-                  <span>contato@raquelrodrigues.com</span>
+                  <span>psi.raquelrodrigues@gmail.com</span>
                 </a>
               </div>
 

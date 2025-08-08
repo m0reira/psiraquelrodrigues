@@ -23,7 +23,6 @@ export const useSEO = ({
     // Update title
     document.title = title
 
-    // Update or create meta tags
     const updateMetaTag = (name: string, content: string, property?: boolean) => {
       const attribute = property ? 'property' : 'name'
       let meta = document.querySelector(`meta[${attribute}="${name}"]`)
@@ -37,23 +36,19 @@ export const useSEO = ({
       meta.setAttribute('content', content)
     }
 
-    // Basic meta tags
     updateMetaTag('description', description)
     if (keywords) updateMetaTag('keywords', keywords)
     updateMetaTag('robots', noindex ? 'noindex, nofollow' : 'index, follow')
 
-    // Open Graph tags
     updateMetaTag('og:title', title, true)
     updateMetaTag('og:description', description, true)
     updateMetaTag('og:image', ogImage, true)
     if (canonical) updateMetaTag('og:url', canonical, true)
 
-    // Twitter Cards
     updateMetaTag('twitter:title', title)
     updateMetaTag('twitter:description', description)
     updateMetaTag('twitter:image', ogImage)
 
-    // Canonical URL
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]')
       if (!link) {
@@ -64,14 +59,12 @@ export const useSEO = ({
       link.setAttribute('href', canonical)
     }
 
-    // Structured Data
     if (structuredData) {
       const script = document.createElement('script')
       script.type = 'application/ld+json'
       script.text = JSON.stringify(structuredData)
       script.id = 'page-structured-data'
 
-      // Remove existing page structured data
       const existing = document.getElementById('page-structured-data')
       if (existing) {
         existing.remove()
@@ -80,7 +73,6 @@ export const useSEO = ({
       document.head.appendChild(script)
     }
 
-    // Cleanup function
     return () => {
       if (structuredData) {
         const script = document.getElementById('page-structured-data')
@@ -103,8 +95,8 @@ export const seoConfigs = {
 
   sobre: {
     title: 'Sobre Raquel Rodrigues - Psicóloga Online Especialista em TCC | Rio de Janeiro',
-    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Formada pela USP, especialista em Terapia Cognitivo-Comportamental com mais de 8 anos de experiência clínica. Atendimento online e presencial no Rio de Janeiro com a mesma qualidade terapêutica.',
-    keywords: 'raquel rodrigues, psicóloga online usp, terapia cognitivo-comportamental online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
+    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Especialista em Terapia Cognitivo-Comportamental com mais de 8 anos de experiência clínica. Atendimento online e presencial no Rio de Janeiro com a mesma qualidade terapêutica.',
+    keywords: 'raquel rodrigues, psicóloga online, terapia cognitivo-comportamental online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
     canonical: 'https://raquelrodrigues.com.br/sobre'
   },
 
@@ -117,7 +109,7 @@ export const seoConfigs = {
 
   contato: {
     title: 'Agende sua Consulta Online | Psicóloga Raquel Rodrigues RJ',
-    description: 'Agende sua consulta online ou presencial com a psicóloga Raquel Rodrigues. Primeira consulta gratuita por videochamada. Atendimento virtual e presencial no Rio de Janeiro. WhatsApp: (21) 97575-5345. Flexibilidade de horários para consultas online.',
+    description: 'Agende sua consulta online ou presencial com a psicóloga Raquel Rodrigues. Primeira consulta gratuita por videochamada. Atendimento virtual e presencial no Rio de Janeiro. WhatsApp: (21) 9 6955-3695. Flexibilidade de horários para consultas online.',
     keywords: 'agendar consulta online, psicóloga online, primeira consulta gratuita online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online',
     canonical: 'https://raquelrodrigues.com.br/contato'
   }
