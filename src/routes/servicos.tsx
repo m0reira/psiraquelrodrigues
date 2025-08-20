@@ -66,8 +66,8 @@ function ServicesPage() {
               </ul>
               <div className="text-center space-y-4">
                 <div>
-                  <span className="text-3xl font-bold text-blue-600">R$ 150</span>
-                  <span className="text-gray-600">/sessão</span>
+                  <span className="text-2xl font-bold text-blue-600">Agende Consulta Grátis</span>
+                  <p className="text-gray-600 text-sm mt-1">Primeira consulta sem compromisso</p>
                 </div>
                 <div className="flex gap-2">
                   <button
@@ -119,8 +119,8 @@ function ServicesPage() {
               </ul>
               <div className="text-center space-y-4">
                 <div>
-                  <span className="text-3xl font-bold text-purple-600">R$ 200</span>
-                  <span className="text-gray-600">/sessão</span>
+                  <span className="text-2xl font-bold text-purple-600">Fazer Orçamento</span>
+                  <p className="text-gray-600 text-sm mt-1">Consulta personalizada para casais</p>
                 </div>
                 <div className="flex gap-2">
                   <button
@@ -172,8 +172,8 @@ function ServicesPage() {
               </ul>
               <div className="text-center space-y-4">
                 <div>
-                  <span className="text-3xl font-bold text-green-600">R$ 130</span>
-                  <span className="text-gray-600">/sessão</span>
+                  <span className="text-2xl font-bold text-green-600">Agende Consulta Grátis</span>
+                  <p className="text-gray-600 text-sm mt-1">Primeira sessão de desenvolvimento</p>
                 </div>
                 <div className="flex gap-2">
                   <button
@@ -248,7 +248,7 @@ function ServicesPage() {
                 <h3 className="text-2xl font-semibold">Atendimento Presencial</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                Consultas em consultório localizado no Rio de Janeiro,
+                Consultas em consultório localizado em Rocha Miranda, Rio de Janeiro,
                 com ambiente acolhedor e privativo para quem prefere o contato presencial.
               </p>
               <div className="space-y-4">
@@ -287,10 +287,10 @@ function ServicesPage() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-600">1</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Primeira Consulta</h3>
+              <h3 className="text-xl font-semibold mb-3">Consulta Grátis</h3>
               <p className="text-gray-600">
-                Avaliação inicial gratuita de 30 minutos para conhecer suas necessidades
-                e explicar como posso ajudar.
+                Primeira consulta gratuita para nos conhecermos e você entender
+                como posso ajudar no seu processo terapêutico.
               </p>
             </div>
 

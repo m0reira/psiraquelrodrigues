@@ -247,8 +247,8 @@ _Enviado através do formulário do site_`
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Localização</h3>
                     <p className="text-gray-600">
-                      Rua Augusta, 1234 - Sala 567<br />
-                      Rio de Janeiro, RJ - 01234-567
+                      Rua dos Rubis, 144<br />
+                      Rocha Miranda - Rio de Janeiro/RJ
                     </p>
                   </div>
                 </div>
@@ -284,8 +284,8 @@ _Enviado através do formulário do site_`
                 Como funciona a primeira consulta?
               </h3>
               <p className="text-gray-600">
-                A primeira consulta é gratuita e dura 30 minutos. É um momento para nos conhecermos,
-                você me contar sobre suas demandas e eu explicar como posso te ajudar.
+                A primeira consulta é gratuita e sem compromisso. É um momento para nos conhecermos,
+                você me contar sobre suas necessidades e eu explicar como posso te ajudar no seu processo terapêutico.
               </p>
             </div>
 
@@ -311,11 +311,11 @@ _Enviado através do formulário do site_`
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                Quais formas de pagamento são aceitas?
+                Como funciona o orçamento e pagamento?
               </h3>
               <p className="text-gray-600">
-                Aceito pagamento em dinheiro, cartão de crédito/débito, PIX e transferência bancária.
-                O pagamento pode ser feito no final de cada sessão.
+                Após a primeira consulta gratuita, faremos um orçamento personalizado baseado
+                nas suas necessidades. Aceito diversas formas de pagamento: dinheiro, cartão, PIX e transferência.
               </p>
             </div>
           </div>

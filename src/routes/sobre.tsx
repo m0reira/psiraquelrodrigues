@@ -21,8 +21,8 @@ function AboutPage() {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Conheça Raquel Rodrigues</h1>
               <p className="text-xl text-blue-100 mb-8">
-                Psicóloga dedicada ao cuidado da saúde mental, com formação sólida e experiência em terapia
-                cognitivo-comportamental.
+                Psicóloga clínica com abordagem existencial-humanista, oferecendo acolhimento,
+                escuta e presença no processo terapêutico.
               </p>
             </div>
             <div className="flex justify-center">
@@ -39,22 +39,23 @@ function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Sou Raquel Rodrigues, psicóloga com registro no Conselho Regional de Psicologia do Rio de
-              Janeiro (CRP 14/000000) e especialista em Terapia Cognitivo-Comportamental. Há mais de 8 anos
-              dedico-me ao atendimento clínico, ajudando pessoas a superarem desafios emocionais e
-              desenvolverem uma vida mais plena e equilibrada.
+              Sou Raquel Andrade Rodrigues, psicóloga clínica com registro no Conselho Regional de Psicologia
+              do Rio de Janeiro (CRP 05/58703). Atuo há mais de 5 anos oferecendo atendimento psicológico para crianças,
+              adultos e idosos, de forma presencial e online.
             </p>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Minha jornada na psicologia começou com o desejo profundo de contribuir para o bem-estar das
-              pessoas. Ao longo dos anos, especializei-me em diversas áreas, sempre mantendo o foco no
-              atendimento humanizado e baseado em evidências científicas.
+              Minha atuação é fundamentada na abordagem existencial-humanista, que compreende o ser humano
+              como único, livre e em constante construção. A psicoterapia, nesse olhar, é um espaço de
+              encontro consigo mesmo — um convite ao autoconhecimento, à autenticidade e à construção de
+              sentido para a vida.
             </p>
 
             <p className="text-lg text-gray-600 mb-12 leading-relaxed">
-              Acredito que cada pessoa possui recursos internos únicos e meu papel é auxiliar na descoberta e
-              fortalecimento dessas capacidades, criando um espaço seguro e acolhedor para o crescimento
-              pessoal.
+              Ao longo da minha trajetória, venho me aprofundando no acompanhamento de questões como
+              ansiedade (TAG, síndrome do pânico), depressão, luto, transtorno bipolar e transtorno de
+              personalidade borderline. Acredito que a escuta genuína e o acolhimento são caminhos potentes
+              para o cuidado emocional.
             </p>
           </div>
         </div>
@@ -70,26 +71,28 @@ function AboutPage() {
               <div className="space-y-8">
                 <div className="border-l-4 border-blue-500 pl-6">
                   <h3 className="text-xl font-semibold mb-2">Consultório Particular</h3>
-                  <p className="text-gray-600 mb-2">2017 - Presente</p>
+                  <p className="text-gray-600 mb-2">2019 - Presente</p>
                   <p className="text-gray-700">
-                    Atendimento clínico individual e de casais, focando em transtornos de ansiedade, depressão
-                    e desenvolvimento pessoal.
+                    Atendimento clínico para crianças, adultos e idosos, com foco em ansiedade, depressão,
+                    luto, transtorno bipolar e transtorno de personalidade borderline.
                   </p>
                 </div>
 
                 <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-semibold mb-2">Hospital das Clínicas - USP</h3>
-                  <p className="text-gray-600 mb-2">2016 - 2018</p>
+                  <h3 className="text-xl font-semibold mb-2">Abordagem Existencial-Humanista</h3>
+                  <p className="text-gray-600 mb-2">Especialização</p>
                   <p className="text-gray-700">
-                    Psicóloga hospitalar, atuando com pacientes em tratamento médico e seus familiares.
+                    Formação e aprofundamento na abordagem que compreende o ser humano como único,
+                    livre e em constante construção.
                   </p>
                 </div>
 
                 <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-semibold mb-2">Centro de Atenção Psicossocial</h3>
-                  <p className="text-gray-600 mb-2">2015 - 2017</p>
+                  <h3 className="text-xl font-semibold mb-2">Atendimento Online e Presencial</h3>
+                  <p className="text-gray-600 mb-2">Modalidades</p>
                   <p className="text-gray-700">
-                    Atendimento em saúde mental pública, trabalhando com diversos transtornos psicológicos.
+                    Experiência consolidada em atendimento presencial e online, oferecendo flexibilidade
+                    e acessibilidade aos pacientes.
                   </p>
                 </div>
               </div>
@@ -104,10 +107,10 @@ function AboutPage() {
                     <Heart className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Humanizada</h4>
+                    <h4 className="font-semibold mb-2">Existencial-Humanista</h4>
                     <p className="text-gray-600">
-                      Cada pessoa é única, e o atendimento é personalizado respeitando a individualidade e o
-                      ritmo de cada paciente.
+                      Compreendo o ser humano como único, livre e em constante construção, respeitando
+                      a individualidade de cada pessoa.
                     </p>
                   </div>
                 </div>
@@ -117,10 +120,10 @@ function AboutPage() {
                     <BookOpen className="w-6 h-6 text-purple-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Baseada em Evidências</h4>
+                    <h4 className="font-semibold mb-2">Escuta Genuína</h4>
                     <p className="text-gray-600">
-                      Utilizo técnicas comprovadas cientificamente, principalmente da Terapia
-                      Cognitivo-Comportamental.
+                      A escuta genuína e o acolhimento são caminhos potentes para o cuidado emocional,
+                      criando um espaço seguro de encontro.
                     </p>
                   </div>
                 </div>
@@ -130,10 +133,10 @@ function AboutPage() {
                     <Users className="w-6 h-6 text-green-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Colaborativa</h4>
+                    <h4 className="font-semibold mb-2">Autoconhecimento</h4>
                     <p className="text-gray-600">
-                      Terapeuta e paciente trabalham juntos na construção de estratégias eficazes para superar
-                      desafios.
+                      Um convite ao autoconhecimento, à autenticidade e à construção de sentido para a vida,
+                      mais do que tratar sintomas.
                     </p>
                   </div>
                 </div>
@@ -143,9 +146,10 @@ function AboutPage() {
                     <Clock className="w-6 h-6 text-yellow-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Focada em Resultados</h4>
+                    <h4 className="font-semibold mb-2">Presença Terapêutica</h4>
                     <p className="text-gray-600">
-                      Estabelecemos objetivos claros e trabalhamos de forma estruturada para alcançá-los.
+                      Estar presente e disponível para quem busca compreender sua dor, suas escolhas
+                      e seus caminhos de crescimento pessoal.
                     </p>
                   </div>
                 </div>

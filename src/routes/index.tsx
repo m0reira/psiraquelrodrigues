@@ -14,14 +14,14 @@ function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
                             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Cuidando da sua
-                <span className="block text-yellow-300">saúde mental</span>
-                <span className="block text-2xl md:text-3xl text-blue-200 mt-2">online ou presencial</span>
+                Raquel Rodrigues
+                <span className="block text-yellow-300 text-3xl md:text-4xl">Psicóloga Clínica</span>
+                <span className="block text-xl md:text-2xl text-blue-200 mt-2">Acolhimento, escuta e presença</span>
               </h1>
               <p className="text-xl mb-8 text-blue-100">
-                Psicóloga especializada em terapia cognitivo-comportamental online e presencial,
-                oferecendo consultas por videochamada com a mesma eficácia do atendimento presencial.
-                Flexibilidade de horários e conforto da sua casa.
+                Atendimento psicológico para crianças, adultos e idosos, de forma presencial e online.
+                Abordagem existencial-humanista com mais de 5 anos de experiência.
+                Um espaço de encontro consigo mesmo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -55,9 +55,9 @@ function HomePage() {
               Como posso te ajudar?
             </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ofereço atendimento psicológico online e presencial para diversas demandas,
-              sempre com uma abordagem humanizada e baseada em evidências científicas.
-              Consultas por videochamada com a mesma qualidade terapêutica.
+              Atendimento psicológico fundamentado na abordagem existencial-humanista,
+              compreendendo o ser humano como único, livre e em constante construção.
+              Um convite ao autoconhecimento, à autenticidade e à construção de sentido para a vida.
             </p>
           </div>
 
@@ -68,8 +68,8 @@ function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-4">Ansiedade e Depressão</h3>
                             <p className="text-gray-600">
-                Tratamento online e presencial para transtornos de ansiedade e depressão,
-                utilizando técnicas comprovadas da terapia cognitivo-comportamental por videochamada.
+                Acompanhamento especializado para ansiedade (TAG, síndrome do pânico), depressão,
+                luto, transtorno bipolar e transtorno de personalidade borderline.
               </p>
             </div>
 
@@ -79,8 +79,8 @@ function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-4">Terapia de Casal</h3>
                             <p className="text-gray-600">
-                Acompanhamento online para casais que desejam melhorar a comunicação,
-                resolver conflitos e fortalecer o relacionamento através de videochamada.
+                Espaço de escuta genuína e acolhimento para casais, promovendo
+                o autoconhecimento e a construção de relacionamentos mais autênticos.
               </p>
             </div>
 
@@ -90,8 +90,8 @@ function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-4">Desenvolvimento Pessoal</h3>
                             <p className="text-gray-600">
-                Sessões online focadas no autoconhecimento, crescimento pessoal e
-                desenvolvimento de habilidades emocionais através de videochamada.
+                Um convite ao autoconhecimento e à autenticidade, promovendo
+                a construção de sentido para a vida e o cuidado emocional.
               </p>
             </div>
           </div>
@@ -116,13 +116,13 @@ function HomePage() {
                 Sobre Raquel Rodrigues
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Psicóloga formada pela Universidade de São Paulo (USP), com especialização
-                em Terapia Cognitivo-Comportamental e mais de 8 anos de experiência clínica.
+                Psicóloga clínica com mais de 5 anos de experiência, especializada na
+                abordagem existencial-humanista que compreende o ser humano como único e livre.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Minha abordagem é centrada no paciente, oferecendo um ambiente acolhedor
-                e seguro para que você possa explorar suas emoções e desenvolver
-                estratégias eficazes para lidar com os desafios da vida.
+                A psicoterapia é um espaço de encontro consigo mesmo. Acredito que a escuta
+                genuína e o acolhimento são caminhos potentes para o cuidado emocional,
+                mais do que tratar sintomas, estar presente para quem busca compreender sua dor.
               </p>
               <Link
                 to="/sobre"

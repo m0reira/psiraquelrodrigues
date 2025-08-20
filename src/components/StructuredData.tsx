@@ -23,15 +23,11 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "email": "psi.raquelrodrigues@gmail.com",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Rua Augusta, 1234 - Sala 567",
-              "addressLocality": "Rio de Janeiro",
+              "streetAddress": "Rua dos Rubis, 144",
+              "addressLocality": "Rocha Miranda",
               "addressRegion": "RJ",
-              "postalCode": "01234-567",
+              "postalCode": "21510-200",
               "addressCountry": "BR"
-            },
-            "alumniOf": {
-              "@type": "Organization",
-              "name": "Universidade de São Paulo (USP)"
             },
             "hasCredential": [
               {
@@ -81,16 +77,16 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "email": "psi.raquelrodrigues@gmail.com",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Rua Augusta, 1234 - Sala 567",
-              "addressLocality": "Rio de Janeiro",
+              "streetAddress": "Rua dos Rubis, 144",
+              "addressLocality": "Rocha Miranda",
               "addressRegion": "RJ",
-              "postalCode": "01234-567",
+              "postalCode": "21510-200",
               "addressCountry": "BR"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": -22.9068,
-              "longitude": -43.1729
+              "latitude": -22.8561,
+              "longitude": -43.3403
             },
             "openingHoursSpecification": [
               {
@@ -106,7 +102,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
                 "closes": "12:00"
               }
             ],
-            "priceRange": "R$ 130 - R$ 200",
+            "priceRange": "Consulta grátis disponível",
             "paymentAccepted": ["Dinheiro", "Cartão", "PIX", "Transferência"],
             "areaServed": {
               "@type": "State",
