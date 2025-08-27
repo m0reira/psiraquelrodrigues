@@ -156,8 +156,8 @@ function HomePage() {
                     <Phone className="w-6 h-6 text-purple-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Primeira Consulta Online</h4>
-                    <p className="text-gray-600">Avaliação inicial gratuita por videochamada</p>
+                                    <h4 className="font-semibold">Conversa Inicial</h4>
+                <p className="text-gray-600">Solicite seu orçamento online por videochamada</p>
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@ function HomePage() {
               Agendar Consulta
             </Link>
             <a
-                                href="tel:+552196955369"
+                                href="tel:+5521969553695"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
               Ligar Agora

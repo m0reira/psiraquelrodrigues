@@ -1,7 +1,7 @@
-import { createRootRoute, Link, Outlet } from '@tanstack/react-router'
+import { createRootRoute, Link, Outlet, useLocation } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
 import { Menu, X, Phone, Mail, MessageCircle } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import WhatsAppFloat from '../components/WhatsAppFloat'
 import { useWhatsAppAnalytics } from '../utils/whatsappAnalytics'
 import StructuredData from '../components/StructuredData'
@@ -9,6 +9,27 @@ import StructuredData from '../components/StructuredData'
 function RootComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { trackClick } = useWhatsAppAnalytics()
+  const location = useLocation()
+
+  // Scroll to top on route change
+  useEffect(() => {
+    // Use requestAnimationFrame for smoother scroll
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+
+    // Small delay to ensure DOM is ready
+    const timeoutId = setTimeout(() => {
+      requestAnimationFrame(scrollToTop)
+    }, 50)
+
+    return () => clearTimeout(timeoutId)
+  }, [location.pathname])
+
+  // Handle menu close and scroll
+  const handleMenuLinkClick = () => {
+    setIsMenuOpen(false)
+  }
 
   return (
     <>
@@ -69,7 +90,7 @@ function RootComponent() {
               {/* Contact Info */}
               <div className="hidden lg:flex items-center space-x-4">
                 <a
-                  href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                  href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors cursor-pointer"
@@ -77,7 +98,7 @@ function RootComponent() {
                   onClick={() => trackClick(undefined, 'home_page')}
                 >
                   <Phone className="h-4 w-4" />
-                  <span>(21) 9 6955-3695</span>
+                  <span>(21) 96955-3695</span>
                   <MessageCircle className="h-3 w-3 text-green-500" />
                 </a>
                 <a
@@ -106,35 +127,35 @@ function RootComponent() {
                   <Link
                     to="/"
                     className="text-gray-700 hover:text-psychology transition-colors"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleMenuLinkClick}
                   >
                     Início
                   </Link>
                   <Link
                     to="/sobre"
                     className="text-gray-700 hover:text-psychology transition-colors"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleMenuLinkClick}
                   >
                     Sobre
                   </Link>
                   <Link
                     to="/servicos"
                     className="text-gray-700 hover:text-psychology transition-colors"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleMenuLinkClick}
                   >
                     Serviços
                   </Link>
                   <Link
                     to="/contato"
                     className="text-gray-700 hover:text-psychology transition-colors"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleMenuLinkClick}
                   >
                     Contato
                   </Link>
                 </nav>
                 <div className="mt-4 pt-4 border-t space-y-2">
                   <a
-                    href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                    href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors"
@@ -145,7 +166,7 @@ function RootComponent() {
                     }}
                   >
                     <Phone className="h-4 w-4" />
-                    <span>(21) 9 6955-3695</span>
+                    <span>(21) 96955-3695</span>
                     <MessageCircle className="h-3 w-3 text-green-500" />
                   </a>
                   <a
@@ -179,7 +200,7 @@ function RootComponent() {
                   oferecendo atendimento humanizado e personalizado.
                 </p>
                 <a
-                  href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                  href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-gray-300 hover:text-green-400 transition-colors"
@@ -187,7 +208,7 @@ function RootComponent() {
                   onClick={() => trackClick(undefined, 'home_page')}
                 >
                   <Phone className="h-4 w-4" />
-                  <span>(21) 9 6955-3695</span>
+                  <span>(21) 96955-3695</span>
                   <MessageCircle className="h-3 w-3 text-green-500" />
                 </a>
                 <a

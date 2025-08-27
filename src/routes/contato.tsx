@@ -41,7 +41,7 @@ ${formData.message || 'Sem mensagem adicional'}
 _Enviado através do formulário do site_`
 
     const encodedMessage = encodeURIComponent(message)
-    const whatsappUrl = `https://wa.me/552196955369?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/5521969553695?text=${encodedMessage}`
 
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer')
 
@@ -127,7 +127,7 @@ _Enviado através do formulário do site_`
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="(21) 9 6955-3695"
+                      placeholder="(21) 96955-3695"
                     />
                   </div>
                   <div>
@@ -210,9 +210,9 @@ _Enviado através do formulário do site_`
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Telefone</h3>
-                      <p className="text-gray-600 mb-4">(21) 9 6955-3695</p>
+                      <p className="text-gray-600 mb-4">(21) 96955-3695</p>
                       <a
-                        href="https://wa.me/552196955369?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                        href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors inline-flex items-center space-x-2"
@@ -281,10 +281,10 @@ _Enviado através do formulário do site_`
           <div className="space-y-8">
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                Como funciona a primeira consulta?
+                Como funciona o orçamento?
               </h3>
               <p className="text-gray-600">
-                A primeira consulta é gratuita e sem compromisso. É um momento para nos conhecermos,
+                Oferecemos uma conversa inicial para solicitar o orçamento. É um momento para nos conhecermos,
                 você me contar sobre suas necessidades e eu explicar como posso te ajudar no seu processo terapêutico.
               </p>
             </div>
@@ -314,8 +314,8 @@ _Enviado através do formulário do site_`
                 Como funciona o orçamento e pagamento?
               </h3>
               <p className="text-gray-600">
-                Após a primeira consulta gratuita, faremos um orçamento personalizado baseado
-                nas suas necessidades. Aceito diversas formas de pagamento: dinheiro, cartão, PIX e transferência.
+                Faremos um orçamento personalizado baseado nas suas necessidades após nossa conversa inicial.
+                Aceito diversas formas de pagamento: dinheiro, cartão, PIX e transferência.
               </p>
             </div>
           </div>

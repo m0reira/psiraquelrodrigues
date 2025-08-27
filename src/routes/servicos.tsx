@@ -66,8 +66,8 @@ function ServicesPage() {
               </ul>
               <div className="text-center space-y-4">
                 <div>
-                  <span className="text-2xl font-bold text-blue-600">Agende Consulta Grátis</span>
-                  <p className="text-gray-600 text-sm mt-1">Primeira consulta sem compromisso</p>
+                                                      <span className="text-2xl font-bold text-blue-600">Fazer Orçamento</span>
+                    <p className="text-gray-600 text-sm mt-1">Orçamento personalizado</p>
                 </div>
                 <div className="flex gap-2">
                   <button
@@ -172,7 +172,7 @@ function ServicesPage() {
               </ul>
               <div className="text-center space-y-4">
                 <div>
-                  <span className="text-2xl font-bold text-green-600">Agende Consulta Grátis</span>
+                  <span className="text-2xl font-bold text-green-600">Fazer Orçamento</span>
                   <p className="text-gray-600 text-sm mt-1">Primeira sessão de desenvolvimento</p>
                 </div>
                 <div className="flex gap-2">
@@ -287,9 +287,9 @@ function ServicesPage() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-600">1</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Consulta Grátis</h3>
-              <p className="text-gray-600">
-                Primeira consulta gratuita para nos conhecermos e você entender
+                <h3 className="text-xl font-semibold mb-3">Conversa Inicial</h3>
+                <p className="text-gray-600">
+                Conversa inicial para nos conhecermos e você entender
                 como posso ajudar no seu processo terapêutico.
               </p>
             </div>
@@ -376,7 +376,7 @@ function ServicesPage() {
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span>Primeira consulta gratuita</span>
+                    <span>Orçamento personalizado</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-5 h-5 text-green-500" />
@@ -396,7 +396,7 @@ function ServicesPage() {
             Pronto para começar?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Agende sua primeira consulta gratuita e dê o primeiro passo
+            Solicite seu orçamento personalizado e dê o primeiro passo
             em direção ao seu bem-estar emocional.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -404,10 +404,10 @@ function ServicesPage() {
               href="/contato"
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              Agendar Consulta Gratuita
+              Solicitar Orçamento
             </a>
             <a
-                                href="tel:+552196955369"
+                                href="tel:+5521969553695"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
               Ligar Agora

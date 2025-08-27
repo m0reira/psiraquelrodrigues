@@ -19,7 +19,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "description": "Psicóloga especializada em terapia cognitivo-comportamental online, ansiedade, depressão e terapia de casal por videochamada",
             "url": "https://raquelrodrigues.com.br",
             "image": "https://raquelrodrigues.com.br/raquel-rodrigues.jpg",
-            "telephone": "+552196955369",
+            "telephone": "+5521969553695",
             "email": "psi.raquelrodrigues@gmail.com",
             "address": {
               "@type": "PostalAddress",
@@ -73,7 +73,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "name": "Raquel Rodrigues - Psicóloga",
             "description": "Consultório de psicologia online especializado em terapia cognitivo-comportamental por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
             "url": "https://raquelrodrigues.com.br",
-            "telephone": "+552196955369",
+            "telephone": "+5521969553695",
             "email": "psi.raquelrodrigues@gmail.com",
             "address": {
               "@type": "PostalAddress",
@@ -102,7 +102,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
                 "closes": "12:00"
               }
             ],
-            "priceRange": "Consulta grátis disponível",
+                          "priceRange": "Orçamento personalizado",
             "paymentAccepted": ["Dinheiro", "Cartão", "PIX", "Transferência"],
             "areaServed": {
               "@type": "State",

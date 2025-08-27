@@ -13,7 +13,7 @@ interface WhatsAppMessage {
 }
 
 export const useWhatsApp = (config: WhatsAppConfig = {
-  phoneNumber: '552196955369',
+  phoneNumber: '5521969553695',
   defaultMessage: 'Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues.'
 }) => {
   const analytics = useWhatsAppAnalytics()
@@ -30,7 +30,7 @@ export const useWhatsApp = (config: WhatsAppConfig = {
         if (messageConfig.service === 'development') {
           return 'Olá! Gostaria de agendar uma consulta focada em desenvolvimento pessoal. Quando você tem disponibilidade?'
         }
-        return 'Olá! Gostaria de agendar minha primeira consulta gratuita de 30 minutos.'
+        return 'Olá! Gostaria de solicitar um orçamento personalizado para terapia.'
 
       case 'info':
         if (messageConfig.service === 'individual') {

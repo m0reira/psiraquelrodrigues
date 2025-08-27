@@ -88,8 +88,8 @@ export const useSEO = ({
 export const seoConfigs = {
   home: {
     title: 'Raquel Rodrigues - Psicóloga Online | Terapia Cognitivo-Comportamental RJ',
-    description: 'Psicóloga Raquel Rodrigues - Atendimento online e presencial no Rio de Janeiro. Especialista em terapia cognitivo-comportamental, ansiedade, depressão e terapia de casal. Consultas por videochamada com a mesma eficácia. Primeira consulta gratuita.',
-    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia cognitivo-comportamental, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, primeira consulta gratuita',
+    description: 'Psicóloga Raquel Rodrigues - Atendimento online e presencial no Rio de Janeiro. Especialista em terapia cognitivo-comportamental, ansiedade, depressão e terapia de casal. Consultas por videochamada com a mesma eficácia. Orçamento personalizado.',
+    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia cognitivo-comportamental, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, orçamento personalizado',
     canonical: 'https://raquelrodrigues.com.br'
   },
 
@@ -109,8 +109,8 @@ export const seoConfigs = {
 
   contato: {
     title: 'Agende sua Consulta Online | Psicóloga Raquel Rodrigues RJ',
-    description: 'Agende sua consulta online ou presencial com a psicóloga Raquel Rodrigues. Primeira consulta gratuita por videochamada. Atendimento virtual e presencial no Rio de Janeiro. WhatsApp: (21) 9 6955-3695. Flexibilidade de horários para consultas online.',
-    keywords: 'agendar consulta online, psicóloga online, primeira consulta gratuita online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online',
+    description: 'Entre em contato com a psicóloga Raquel Rodrigues. Orçamento personalizado por videochamada. Atendimento virtual e presencial no Rio de Janeiro. WhatsApp: (21) 96955-3695. Flexibilidade de horários para consultas online.',
+    keywords: 'contato psicóloga online, orçamento personalizado online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online',
     canonical: 'https://raquelrodrigues.com.br/contato'
   }
 }

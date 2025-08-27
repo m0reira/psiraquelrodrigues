@@ -64,44 +64,13 @@ function AboutPage() {
       {/* Experience & Approach */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Experiência Profissional</h2>
+          <div className="max-w-4xl mx-auto">
 
-              <div className="space-y-8">
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-semibold mb-2">Consultório Particular</h3>
-                  <p className="text-gray-600 mb-2">2019 - Presente</p>
-                  <p className="text-gray-700">
-                    Atendimento clínico para crianças, adultos e idosos, com foco em ansiedade, depressão,
-                    luto, transtorno bipolar e transtorno de personalidade borderline.
-                  </p>
-                </div>
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-semibold mb-2">Abordagem Existencial-Humanista</h3>
-                  <p className="text-gray-600 mb-2">Especialização</p>
-                  <p className="text-gray-700">
-                    Formação e aprofundamento na abordagem que compreende o ser humano como único,
-                    livre e em constante construção.
-                  </p>
-                </div>
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-gray-900 mb-12">Minha Abordagem</h2>
 
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-semibold mb-2">Atendimento Online e Presencial</h3>
-                  <p className="text-gray-600 mb-2">Modalidades</p>
-                  <p className="text-gray-700">
-                    Experiência consolidada em atendimento presencial e online, oferecendo flexibilidade
-                    e acessibilidade aos pacientes.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Minha Abordagem</h2>
-
-              <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                     <Heart className="w-6 h-6 text-blue-600" />
@@ -175,7 +144,7 @@ function AboutPage() {
               Agendar Consulta
             </a>
             <a
-              href="tel:+552196955369"
+              href="tel:+5521969553695"
               className="border-2 border-psychology text-psychology px-8 py-3 rounded-lg font-semibold hover:bg-psychology hover:text-white transition-colors"
             >
               Ligar Agora

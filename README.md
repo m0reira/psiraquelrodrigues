@@ -61,7 +61,7 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 - **Mensagens Pré-definidas**: Opções rápidas para diferentes tipos de consulta
 - **Analytics Avançado**: Rastreamento de interações e conversões
 - **Múltiplas Fontes**: Botões específicos em cada página
-- **Número Atualizado**: (21) 9 6955-3695
+- **Número Atualizado**: (21) 96955-3695
 
 ### Tipos de Mensagem Disponíveis
 1. **Agendamento**: Mensagens específicas para cada tipo de terapia

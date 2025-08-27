@@ -16,7 +16,7 @@ const WhatsAppFloat = () => {
 
   const quickMessages = [
     {
-      text: "Agendar primeira consulta gratuita",
+      text: "Conversa inicial - Solicitar orçamento",
       action: () => scheduleAppointment()
     },
     {
