@@ -13,13 +13,11 @@ function HomePage() {
             <div>
                             <h1 className="text-4xl md:text-6xl font-bold mb-6">
                 Raquel Rodrigues
-                <span className="block text-yellow-300 text-3xl md:text-4xl">Psicóloga Clínica</span>
-                <span className="block text-xl md:text-2xl text-blue-200 mt-2">Acolhimento, escuta e presença</span>
+                <span className="block text-yellow-300 text-3xl md:text-4xl">Psicóloga Online</span>
+                <span className="block text-xl md:text-2xl text-blue-200 mt-2"> Abordagem existencial-humanista</span>
               </h1>
               <p className="text-xl mb-8 text-blue-100">
-                Atendimento psicológico para crianças, adultos e idosos, de forma presencial e online.
-                Abordagem existencial-humanista com mais de 5 anos de experiência.
-                Um espaço de encontro consigo mesmo.
+                Atendimento psicológico para crianças, adultos e idosos, de forma online ou presencial.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -36,7 +34,7 @@ function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-center lg:justify-end">
+            <div className="hidden md:flex justify-center lg:justify-end">
               <div className="w-80 h-80 bg-white/20 rounded-full flex items-center justify-center">
                 <Brain className="w-32 h-32 text-white" />
               </div>
@@ -51,11 +49,14 @@ function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Como posso te ajudar?
             </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Atendimento psicológico fundamentado na abordagem existencial-humanista,
-              compreendendo o ser humano como único, livre e em constante construção.
-              Um convite ao autoconhecimento, à autenticidade e à construção de sentido para a vida.
-            </p>
+             <div className="text-xl text-gray-600 max-w-3xl mx-auto space-y-4">
+              <p>
+                Atendimento com abordagem existencial-humanista, com mais de 5 anos de experiência.
+              </p>
+              <p>
+                Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

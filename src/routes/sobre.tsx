@@ -23,31 +23,33 @@ function AboutPage() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-80 h-80 bg-white/20 rounded-full flex items-center justify-center">
-                <Heart className="w-32 h-32 text-white" />
+              <div className="w-48 h-48 md:w-80 md:h-80 bg-white/20 rounded-full flex items-center justify-center">
+                <Heart className="w-20 h-20 md:w-32 md:h-32 text-white" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 md:mb-12">Quem sou eu?</h2>
+          </div>
+
           <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Sou Raquel Andrade Rodrigues, psicóloga clínica com registro no Conselho Regional de Psicologia
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Sou Raquel Rodrigues, psicóloga clínica com registro no Conselho Regional de Psicologia
               do Rio de Janeiro (CRP 05/58703). Atuo há mais de 5 anos oferecendo atendimento psicológico para crianças,
-              adultos e idosos, de forma presencial e online.
+              adultos e idosos, de forma online e presencial.
             </p>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Minha atuação é fundamentada na abordagem existencial-humanista, que compreende o ser humano
-              como único, livre e em constante construção. A psicoterapia, nesse olhar, é um espaço de
-              encontro consigo mesmo — um convite ao autoconhecimento, à autenticidade e à construção de
-              sentido para a vida.
+              como único, livre e em constante construção.
             </p>
 
-            <p className="text-lg text-gray-600 mb-12 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Ao longo da minha trajetória, venho me aprofundando no acompanhamento de questões como
               ansiedade (TAG, síndrome do pânico), depressão, luto, transtorno bipolar e transtorno de
               personalidade borderline. Acredito que a escuta genuína e o acolhimento são caminhos potentes
@@ -57,11 +59,9 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-
-
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-900 mb-12">Minha Abordagem</h2>
 
@@ -71,7 +71,7 @@ function AboutPage() {
                     <Heart className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Existencial-Humanista</h4>
+                    <h4 className="font-semibold mb-2">Abordagem Existencial-Humanista</h4>
                     <p className="text-gray-600">
                       Compreendo o ser humano como único, livre e em constante construção, respeitando
                       a individualidade de cada pessoa.
@@ -123,7 +123,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Vamos conversar?</h2>
           <p className="text-xl text-gray-600 mb-8">
