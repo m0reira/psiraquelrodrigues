@@ -20,8 +20,8 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 - **Node.js 22** - Runtime JavaScript
 - **React 18** - Biblioteca JavaScript para interfaces de usuário
 - **TypeScript** - Superset tipado do JavaScript
-- **Vite** - Build tool e servidor de desenvolvimento
-- **TanStack Router** - Roteamento moderno para React
+- **Vite 7** - Build tool e servidor de desenvolvimento
+- **TanStack Router** - Roteamento moderno para React com code splitting automático
 - **Tailwind CSS** - Framework CSS utility-first
 - **shadcn/ui** - Componentes de UI reutilizáveis
 - **Lucide React** - Ícones SVG modernos

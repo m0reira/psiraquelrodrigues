@@ -97,9 +97,9 @@ psiraquelrodrigues/
 - **Node.js 22** - Runtime JavaScript
 - **React 18** - Biblioteca para UI
 - **TypeScript** - Tipagem estática
-- **Vite** - Build tool e dev server
+- **Vite 7** - Build tool e dev server
+- **TanStack Router** - Roteamento com code splitting automático
 - **Tailwind CSS** - Framework CSS
-- **Tanstack Router** - Roteamento
 - **shadcn/ui** - Componentes UI
 
 ## ⚙️ Configurações de Engines
