@@ -14,7 +14,7 @@ interface WhatsAppMessage {
 
 export const useWhatsApp = (config: WhatsAppConfig = {
   phoneNumber: '5521969553695',
-  defaultMessage: 'Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues.'
+  defaultMessage: 'Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários.'
 }) => {
   const analytics = useWhatsAppAnalytics()
 
@@ -22,15 +22,15 @@ export const useWhatsApp = (config: WhatsAppConfig = {
     switch (messageConfig.type) {
       case 'appointment':
         if (messageConfig.service === 'individual') {
-          return 'Olá! Gostaria de agendar uma consulta de terapia individual. Quando você tem disponibilidade?'
+          return 'Olá! Vim através do seu site e gostaria de agendar uma consulta de terapia individual. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários. Quando você tem disponibilidade para uma primeira consulta?'
         }
         if (messageConfig.service === 'couple') {
-          return 'Olá! Gostaria de agendar uma consulta de terapia de casal. Quando vocês têm disponibilidade?'
+          return 'Olá! Vim através do seu site e gostaria de agendar uma consulta de terapia de casal. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários. Quando vocês têm disponibilidade para uma primeira consulta?'
         }
         if (messageConfig.service === 'development') {
-          return 'Olá! Gostaria de agendar uma consulta focada em desenvolvimento pessoal. Quando você tem disponibilidade?'
+          return 'Olá! Vim através do seu site e gostaria de agendar uma consulta focada em desenvolvimento pessoal. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários. Quando você tem disponibilidade para uma primeira consulta?'
         }
-        return 'Olá! Gostaria de solicitar um orçamento personalizado para terapia.'
+        return 'Olá! Vim através do seu site e gostaria de solicitar um orçamento personalizado para terapia. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários.'
 
       case 'info':
         if (messageConfig.service === 'individual') {
@@ -45,7 +45,7 @@ export const useWhatsApp = (config: WhatsAppConfig = {
         return 'Olá! Gostaria de saber mais informações sobre os serviços oferecidos.'
 
       case 'emergency':
-        return 'Olá! Estou passando por um momento difícil e gostaria de saber se há possibilidade de um atendimento mais urgente.'
+        return 'Olá! Estou passando por um momento difícil e gostaria de saber se há possibilidade de um atendimento mais urgente. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários.'
 
       case 'custom':
         return messageConfig.message || config.defaultMessage
