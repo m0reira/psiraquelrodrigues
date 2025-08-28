@@ -340,11 +340,11 @@ function ServicesPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="font-medium">Segunda à Sexta</span>
-                    <span className="text-gray-600">8h às 18h</span>
+                    <span className="text-gray-600">9h às 19h</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-medium">Sábado</span>
-                    <span className="text-gray-600">8h às 12h</span>
+                    <span className="text-gray-600">9h às 13h</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-medium">Domingo</span>

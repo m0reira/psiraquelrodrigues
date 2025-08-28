@@ -237,8 +237,8 @@ function RootComponent() {
               <div>
                 <h4 className="text-lg font-semibold mb-4">Horário de Atendimento</h4>
                 <div className="text-gray-300 space-y-2">
-                  <p>Segunda à Sexta: 8h às 18h</p>
-                  <p>Sábado: 8h às 12h</p>
+                  <p>Segunda à Sexta: 9h às 19h</p>
+                  <p>Sábado: 9h às 13h</p>
                   <p>Domingo: Fechado</p>
                 </div>
               </div>

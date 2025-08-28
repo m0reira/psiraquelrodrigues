@@ -162,10 +162,10 @@ _Enviado através do formulário do site_`
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   >
                     <option value="">Selecione um horário</option>
-                    <option value="Manhã (8h às 12h)">Manhã (8h às 12h)</option>
+                    <option value="Manhã (8h às 12h)">Manhã (9h às 12h)</option>
                     <option value="Tarde (13h às 17h)">Tarde (13h às 17h)</option>
                     <option value="Noite (18h às 20h)">Noite (18h às 20h)</option>
-                    <option value="Sábado (8h às 12h)">Sábado (8h às 12h)</option>
+                    <option value="Sábado (9h às 13h)">Sábado (9h às 13h)</option>
                   </select>
                 </div>
 
