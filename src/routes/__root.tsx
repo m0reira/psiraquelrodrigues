@@ -1,6 +1,6 @@
 import { createRootRoute, Link, Outlet, useLocation } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
-import { Menu, X, Phone, Mail, MessageCircle } from 'lucide-react'
+import { Menu, X, Phone, Mail, MessageCircle, Users, Heart } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import WhatsAppFloat from '../components/WhatsAppFloat'
 import { useWhatsAppAnalytics } from '../utils/whatsappAnalytics'
@@ -10,6 +10,9 @@ function RootComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { trackClick } = useWhatsAppAnalytics()
   const location = useLocation()
+
+  const [isBottomBarVisible, setIsBottomBarVisible] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState(0)
 
   useEffect(() => {
     const scrollToTop = () => {
@@ -22,6 +25,26 @@ function RootComponent() {
 
     return () => clearTimeout(timeoutId)
   }, [location.pathname])
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsBottomBarVisible(false)
+      } else {
+        setIsBottomBarVisible(true)
+      }
+
+      setLastScrollY(currentScrollY)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [lastScrollY])
 
   const handleMenuLinkClick = () => {
     setIsMenuOpen(false)
@@ -252,6 +275,44 @@ function RootComponent() {
       </div>
 
       <WhatsAppFloat />
+
+
+      <nav className={`fixed bottom-0 left-0 right-0 md:hidden bg-white border-t border-gray-200 py-2 z-50 shadow-lg bottom-bar-smooth ${
+        isBottomBarVisible ? 'translate-y-0' : 'translate-y-full'
+      }`}>
+        <div className="flex justify-around items-center">
+          <Link
+            to="/sobre"
+            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
+          >
+            <Users className="w-5 h-5 mb-1" />
+            <span className="text-xs">Sobre</span>
+          </Link>
+          <Link
+            to="/servicos"
+            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
+          >
+            <Heart className="w-5 h-5 mb-1" />
+            <span className="text-xs">Serviços</span>
+          </Link>
+          <Link
+            to="/contato"
+            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
+          >
+            <Phone className="w-5 h-5 mb-1" />
+            <span className="text-xs">Contato</span>
+          </Link>
+          <a
+            href="https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de agendar uma consulta."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
+          >
+            <MessageCircle className="w-5 h-5 mb-1" />
+            <span className="text-xs">WhatsApp</span>
+          </a>
+        </div>
+      </nav>
 
       {!(import.meta as any).env.PROD && <TanStackRouterDevtools />}
     </>

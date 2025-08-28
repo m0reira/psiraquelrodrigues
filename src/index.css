@@ -58,7 +58,7 @@
   }
 }
 
-/* Custom styles for psychology theme */
+
 .gradient-psychology {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
@@ -69,4 +69,16 @@
 
 .bg-psychology {
   background-color: #667eea;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 80px;
+  }
+}
+
+
+.bottom-bar-smooth {
+  transition: transform 600ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
