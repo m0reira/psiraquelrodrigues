@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { tanstackRouter } from '@tanstack/router-plugin/vite'
 import path from 'path'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     tanstackRouter({
       target: 'react',
@@ -16,5 +16,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/psiraquelrodrigues',
-})
+  base: mode === 'production' ? '/psiraquelrodrigues' : '/',
+}))
