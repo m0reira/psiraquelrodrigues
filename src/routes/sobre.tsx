@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { GraduationCap, Award, Users, Clock, Heart, BookOpen } from "lucide-react";
+import { Users, Clock, Heart, BookOpen } from "lucide-react";
 import { useSEO, seoConfigs } from "../hooks/useSEO";
 import Breadcrumbs from "../components/Breadcrumbs";
 

@@ -56,13 +56,24 @@ O site estará disponível em: `http://localhost:5173`
 # Desenvolvimento
 npm run dev          # Inicia servidor de desenvolvimento
 
+# Verificações (executadas automaticamente no CI/CD)
+npm run typecheck    # Verifica tipos TypeScript
+npm run lint         # Verifica código com ESLint
+
 # Build
 npm run build        # Cria build de produção na pasta dist/
 npm run preview      # Preview do build de produção
-
-# Linting
-npm run lint         # Verifica código com ESLint
 ```
+
+## ✅ Verificações Antes do Commit
+
+Antes de fazer push, sempre execute:
+```bash
+# Verificar se tudo está OK
+npm run typecheck && npm run lint && npm run build
+```
+
+Isso garante que o GitHub Actions não falhará no deploy.
 
 ## 🔧 Estrutura do Projeto
 

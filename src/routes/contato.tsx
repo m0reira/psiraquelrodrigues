@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { useSEO, seoConfigs } from '../hooks/useSEO'
 import Breadcrumbs from '../components/Breadcrumbs'
 

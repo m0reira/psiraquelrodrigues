@@ -33,9 +33,13 @@ base: '/psiraquelrodrigues/',
 
 ### 3. **GitHub Actions Workflow** ✅ (Já criado)
 O arquivo `.github/workflows/deploy.yml` foi criado e irá:
+- **Verificar tipos** com TypeScript (`npm run typecheck`)
+- **Verificar código** com ESLint (`npm run lint`)
 - Fazer build automático quando você fizer push na branch `main`
 - Fazer deploy automático para o GitHub Pages
 - Usar o diretório `dist/` como fonte dos arquivos
+
+> ⚠️ **Importante**: O deploy só acontecerá se **todas as verificações passarem** (types + lint + build).
 
 ## 🎯 Passos para Deploy
 
@@ -96,6 +100,24 @@ Para atualizar o site:
 
 ### **Problema**: 404 ao navegar nas páginas
 **Solução**: O Tanstack Router já está configurado para SPA. Se necessário, adicione um arquivo `404.html` que redireciona para `index.html`.
+
+### **Problema**: GitHub Actions falha na verificação de tipos ou lint
+**Solução**: Execute localmente antes de fazer push:
+```bash
+# Verificar tipos
+npm run typecheck
+
+# Verificar lint
+npm run lint
+
+# Verificar ambos em sequência
+npm run typecheck && npm run lint
+
+# Corrigir problemas e tentar novamente
+git add .
+git commit -m "fix: corrigir erros de lint/types"
+git push
+```
 
 ## 🌐 URL Final
 

@@ -46,6 +46,9 @@ npm install
 
 # Execute em modo desenvolvimento
 npm run dev
+
+# Verificar código antes de commit
+npm run typecheck && npm run lint
 ```
 
 Acesse: `http://localhost:5173`

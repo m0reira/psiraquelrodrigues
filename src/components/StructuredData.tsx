@@ -215,10 +215,3 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
 }
 
 export default StructuredData
-
-export const useStructuredData = (type: StructuredDataProps['type'], data?: any) => {
-  useEffect(() => {
-    const component = StructuredData({ type, data })
-    return component as any
-  }, [type, data])
-}

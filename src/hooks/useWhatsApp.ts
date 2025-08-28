@@ -86,9 +86,6 @@ export const useWhatsApp = (config: WhatsAppConfig = {
   const isWhatsAppAvailable = useCallback((): boolean => {
     if (typeof window === 'undefined') return false
 
-    const userAgent = window.navigator.userAgent.toLowerCase()
-    const isMobile = /android|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(userAgent)
-
     return true
   }, [])
 
