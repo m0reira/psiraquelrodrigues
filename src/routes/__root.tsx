@@ -253,7 +253,7 @@ function RootComponent() {
 
       <WhatsAppFloat />
 
-      <TanStackRouterDevtools />
+      {!(import.meta as any).env.PROD && <TanStackRouterDevtools />}
     </>
   )
 }
