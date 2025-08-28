@@ -85,16 +85,16 @@ export const useSEO = ({
 
 export const seoConfigs = {
   home: {
-    title: 'Raquel Rodrigues - Psicóloga Online | Terapia Cognitivo-Comportamental RJ',
-    description: 'Psicóloga Raquel Rodrigues - Atendimento online e presencial no Rio de Janeiro. Especialista em terapia cognitivo-comportamental, ansiedade, depressão e terapia de casal. Consultas por videochamada com a mesma eficácia. Orçamento personalizado.',
-    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia cognitivo-comportamental, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, orçamento personalizado',
+    title: 'Raquel Rodrigues - Psicóloga Online | Terapia Existencial-Humanista RJ',
+    description: 'Psicóloga Raquel Rodrigues - Atendimento online e presencial no Rio de Janeiro. Especialista em terapia existencial-humanista, ansiedade, depressão e terapia de casal. Consultas por videochamada com a mesma eficácia. Orçamento personalizado.',
+    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia existencial-humanista, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, orçamento personalizado',
     canonical: 'https://raquelrodrigues.com.br'
   },
 
   sobre: {
-    title: 'Sobre Raquel Rodrigues - Psicóloga Online Especialista em TCC | Rio de Janeiro',
-    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Especialista em Terapia Cognitivo-Comportamental com mais de 8 anos de experiência clínica. Atendimento online e presencial no Rio de Janeiro com a mesma qualidade terapêutica.',
-    keywords: 'raquel rodrigues, psicóloga online, terapia cognitivo-comportamental online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
+    title: 'Sobre Raquel Rodrigues - Psicóloga Online Especialista em Existencial-Humanista | Rio de Janeiro',
+    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Especialista em Terapia Existencial-Humanista com mais de 8 anos de experiência clínica. Atendimento online e presencial no Rio de Janeiro com a mesma qualidade terapêutica.',
+    keywords: 'raquel rodrigues, psicóloga online, terapia existencial-humanista online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
     canonical: 'https://raquelrodrigues.com.br/sobre'
   },
 

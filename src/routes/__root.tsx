@@ -183,7 +183,7 @@ function RootComponent() {
               <div>
                 <h3 className="text-xl font-bold mb-4">Raquel Rodrigues</h3>
                 <p className="text-gray-300 mb-4">
-                  Psicóloga especializada em terapia cognitivo-comportamental,
+                  Psicóloga especializada em terapia existencial-humanista,
                   oferecendo atendimento humanizado e personalizado.
                 </p>
                 <a

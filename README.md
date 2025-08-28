@@ -90,8 +90,8 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 - **Business Schema**: Informações estruturadas do negócio
 
 ### Páginas Otimizadas
-- **Início**: "Raquel Rodrigues - Psicóloga Online | Terapia Cognitivo-Comportamental RJ"
-- **Sobre**: "Sobre Raquel Rodrigues - Psicóloga Online Especialista em TCC | Rio de Janeiro"
+- **Início**: "Raquel Rodrigues - Psicóloga Online | Terapia Existencial-Humanista RJ"
+- **Sobre**: "Sobre Raquel Rodrigues - Psicóloga Online Especialista em Existencial-Humanista | Rio de Janeiro"
 - **Serviços**: "Psicologia Online | Terapia Individual, Casal por Videochamada - RJ"
 - **Contato**: "Agende sua Consulta Online | Psicóloga Raquel Rodrigues RJ"
 

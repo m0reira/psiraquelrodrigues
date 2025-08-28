@@ -16,7 +16,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@id": "https://raquelrodrigues.com.br/#psychologist",
             "name": "Raquel Rodrigues",
             "jobTitle": "Psicóloga",
-            "description": "Psicóloga especializada em terapia cognitivo-comportamental online, ansiedade, depressão e terapia de casal por videochamada",
+            "description": "Psicóloga especializada em terapia existencial-humanista online, ansiedade, depressão e terapia de casal por videochamada",
             "url": "https://raquelrodrigues.com.br",
             "image": "https://raquelrodrigues.com.br/raquel-rodrigues.jpg",
             "telephone": "+5521969553695",
@@ -37,22 +37,22 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
                 "credentialCategory": "Diploma",
                 "recognizedBy": {
                   "@type": "Organization",
-                  "name": "Universidade de São Paulo (USP)"
+                  "name": "Universidade Federal do Rio de Janeiro (UFRJ)"
                 }
               },
               {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Especialização em Terapia Cognitivo-Comportamental",
+                "name": "Especialização em Terapia Existencial-Humanista",
                 "educationalLevel": "Especialização",
                 "credentialCategory": "Certificado",
                 "recognizedBy": {
                   "@type": "Organization",
-                  "name": "Instituto de Psicologia USP"
+                  "name": "Instituto de Psicologia UFRJ"
                 }
               }
             ],
             "knowsAbout": [
-              "Terapia Cognitivo-Comportamental",
+              "Terapia Existencial-Humanista",
               "Ansiedade",
               "Depressão",
               "Terapia de Casal",
@@ -71,7 +71,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@type": "ProfessionalService",
             "@id": "https://raquelrodrigues.com.br/#organization",
             "name": "Raquel Rodrigues - Psicóloga",
-            "description": "Consultório de psicologia online especializado em terapia cognitivo-comportamental por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
+            "description": "Consultório de psicologia online especializado em terapia existencial-humanista por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
             "url": "https://raquelrodrigues.com.br",
             "telephone": "+5521969553695",
             "email": "psi.raquelrodrigues@gmail.com",
