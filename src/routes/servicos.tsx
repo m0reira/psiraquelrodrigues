@@ -410,4 +410,4 @@ function ServicesPage() {
 
 export const Route = createFileRoute('/servicos')({
   component: ServicesPage,
-})
+}) as any

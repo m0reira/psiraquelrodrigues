@@ -327,4 +327,4 @@ _Enviado através do formulário do site_`
 
 export const Route = createFileRoute('/contato')({
   component: ContactPage,
-})
+}) as any

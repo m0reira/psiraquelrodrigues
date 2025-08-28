@@ -150,6 +150,6 @@ function AboutPage() {
   );
 }
 
-export const Route = createFileRoute("/sobre")({
+export const Route = createFileRoute('/sobre')({
   component: AboutPage,
-});
+}) as any;
