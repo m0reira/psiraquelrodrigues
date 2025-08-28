@@ -17,6 +17,7 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **Node.js 22** - Runtime JavaScript
 - **React 18** - Biblioteca JavaScript para interfaces de usuário
 - **TypeScript** - Superset tipado do JavaScript
 - **Vite** - Build tool e servidor de desenvolvimento
@@ -24,6 +25,32 @@ Um site profissional moderno e responsivo para a psicóloga Raquel Rodrigues, de
 - **Tailwind CSS** - Framework CSS utility-first
 - **shadcn/ui** - Componentes de UI reutilizáveis
 - **Lucide React** - Ícones SVG modernos
+
+## 🚀 Instalação e Desenvolvimento
+
+### Pré-requisitos
+- **Node.js 22** ou superior
+- **npm** (vem com Node.js)
+
+### Configuração Local
+```bash
+# Clone o repositório
+git clone https://github.com/SEU-USUARIO/psiraquelrodrigues.git
+cd psiraquelrodrigues
+
+# Use Node.js 22 (se você usa nvm)
+nvm use
+
+# Instale as dependências
+npm install
+
+# Execute em modo desenvolvimento
+npm run dev
+```
+
+Acesse: `http://localhost:5173`
+
+> 📖 **Mais detalhes**: Veja [DEVELOPMENT.md](./DEVELOPMENT.md) para instruções completas de desenvolvimento.
 
 ## 📱 Páginas Incluídas
 
