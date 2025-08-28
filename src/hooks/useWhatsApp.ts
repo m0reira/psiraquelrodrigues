@@ -60,7 +60,6 @@ export const useWhatsApp = (config: WhatsAppConfig = {
     const encodedMessage = encodeURIComponent(message)
     const whatsappUrl = `https://wa.me/${config.phoneNumber}?text=${encodedMessage}`
 
-    // Track analytics
     analytics.trackMessageSent(messageConfig.service, source)
 
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer')
@@ -85,20 +84,17 @@ export const useWhatsApp = (config: WhatsAppConfig = {
   }, [sendMessage])
 
   const isWhatsAppAvailable = useCallback((): boolean => {
-    // Verifica se está em um dispositivo móvel ou desktop que suporta WhatsApp
     if (typeof window === 'undefined') return false
 
     const userAgent = window.navigator.userAgent.toLowerCase()
     const isMobile = /android|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(userAgent)
 
-    return true // WhatsApp Web funciona em desktop também
+    return true
   }, [])
 
   const formatPhoneNumber = useCallback((phone: string): string => {
-    // Remove todos os caracteres não numéricos
     const cleanPhone = phone.replace(/\D/g, '')
 
-    // Formata para exibição brasileira
     if (cleanPhone.length === 13 && cleanPhone.startsWith('55')) {
       const ddd = cleanPhone.slice(2, 4)
       const firstPart = cleanPhone.slice(4, 9)

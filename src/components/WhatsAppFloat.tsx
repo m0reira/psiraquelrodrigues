@@ -41,7 +41,6 @@ const WhatsAppFloat = () => {
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
-      {/* Expanded Menu */}
       {isExpanded && (
         <div className="mb-4 bg-white rounded-2xl shadow-2xl border border-gray-200 p-4 w-80 max-w-[calc(100vw-3rem)]">
           <div className="flex items-center justify-between mb-4">
@@ -94,7 +93,6 @@ const WhatsAppFloat = () => {
         </div>
       )}
 
-      {/* Main WhatsApp Button */}
       <div className="relative">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
@@ -103,16 +101,13 @@ const WhatsAppFloat = () => {
         >
           <MessageCircle className="w-6 h-6" />
 
-          {/* Pulse Animation */}
           <div className="absolute inset-0 rounded-full bg-green-500 animate-ping opacity-20"></div>
         </button>
 
-        {/* Online Status */}
         <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-white flex items-center justify-center">
           <div className="w-2 h-2 bg-green-600 rounded-full animate-pulse"></div>
         </div>
 
-        {/* Tooltip */}
         {!isExpanded && (
           <div className="absolute right-16 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
             Fale conosco no WhatsApp
@@ -121,7 +116,6 @@ const WhatsAppFloat = () => {
         )}
       </div>
 
-      {/* Close button when expanded */}
       {isExpanded && (
         <button
           onClick={() => setIsVisible(false)}

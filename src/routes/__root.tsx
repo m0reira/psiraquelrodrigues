@@ -11,14 +11,11 @@ function RootComponent() {
   const { trackClick } = useWhatsAppAnalytics()
   const location = useLocation()
 
-  // Scroll to top on route change
   useEffect(() => {
-    // Use requestAnimationFrame for smoother scroll
     const scrollToTop = () => {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }
 
-    // Small delay to ensure DOM is ready
     const timeoutId = setTimeout(() => {
       requestAnimationFrame(scrollToTop)
     }, 50)
@@ -26,28 +23,23 @@ function RootComponent() {
     return () => clearTimeout(timeoutId)
   }, [location.pathname])
 
-  // Handle menu close and scroll
   const handleMenuLinkClick = () => {
     setIsMenuOpen(false)
   }
 
   return (
     <>
-      {/* Structured Data */}
       <StructuredData type="psychologist" />
       <StructuredData type="organization" />
 
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
-        {/* Header */}
         <header className="bg-white shadow-sm sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center py-4">
-              {/* Logo */}
               <Link to="/" className="text-2xl font-bold text-psychology">
                 Raquel Rodrigues
               </Link>
 
-              {/* Desktop Navigation */}
               <nav className="hidden md:flex space-x-8">
                 <Link
                   to="/"
@@ -87,7 +79,6 @@ function RootComponent() {
                 </Link>
               </nav>
 
-              {/* Contact Info */}
               <div className="hidden lg:flex items-center space-x-4">
                 <a
                   href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
@@ -111,7 +102,6 @@ function RootComponent() {
                 </a>
               </div>
 
-              {/* Mobile menu button */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="md:hidden p-2"
@@ -120,7 +110,6 @@ function RootComponent() {
               </button>
             </div>
 
-            {/* Mobile Navigation */}
             {isMenuOpen && (
               <div className="md:hidden py-4 border-t">
                 <nav className="flex flex-col space-y-4">
@@ -184,12 +173,10 @@ function RootComponent() {
           </div>
         </header>
 
-        {/* Main Content */}
         <main>
           <Outlet />
         </main>
 
-        {/* Footer */}
         <footer className="bg-gray-900 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -264,7 +251,6 @@ function RootComponent() {
         </footer>
       </div>
 
-      {/* WhatsApp Float Button */}
       <WhatsAppFloat />
 
       <TanStackRouterDevtools />

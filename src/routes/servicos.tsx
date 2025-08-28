@@ -7,17 +7,14 @@ import Breadcrumbs from '../components/Breadcrumbs'
 function ServicesPage() {
   const { scheduleAppointment, requestInfo } = useWhatsApp()
 
-  // SEO Configuration
   useSEO(seoConfigs.servicos)
 
   return (
     <div>
-      {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ name: 'Serviços', href: '/servicos' }]} />
       </div>
 
-      {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -30,11 +27,9 @@ function ServicesPage() {
         </div>
       </section>
 
-      {/* Main Services */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Individual Therapy */}
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mb-6">
                 <Heart className="w-8 h-8 text-white" />
@@ -87,7 +82,6 @@ function ServicesPage() {
               </div>
             </div>
 
-            {/* Couple Therapy */}
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
@@ -140,7 +134,6 @@ function ServicesPage() {
               </div>
             </div>
 
-            {/* Personal Development */}
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mb-6">
                 <Brain className="w-8 h-8 text-white" />
@@ -196,7 +189,6 @@ function ServicesPage() {
         </div>
       </section>
 
-      {/* Modalities */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -270,7 +262,6 @@ function ServicesPage() {
         </div>
       </section>
 
-      {/* Process */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -330,7 +321,6 @@ function ServicesPage() {
         </div>
       </section>
 
-      {/* Schedule Info */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
@@ -389,7 +379,6 @@ function ServicesPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-psychology text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

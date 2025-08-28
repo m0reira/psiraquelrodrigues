@@ -4,17 +4,14 @@ import { useSEO, seoConfigs } from "../hooks/useSEO";
 import Breadcrumbs from "../components/Breadcrumbs";
 
 function AboutPage() {
-  // SEO Configuration
   useSEO(seoConfigs.sobre);
 
   return (
     <div>
-      {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ name: "Sobre", href: "/sobre" }]} />
       </div>
 
-      {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -34,7 +31,6 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* About Content */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
@@ -61,7 +57,6 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* Experience & Approach */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
@@ -128,7 +123,6 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Vamos conversar?</h2>

@@ -3,12 +3,10 @@ import { Heart, Brain, Users, Clock, MapPin, Phone } from 'lucide-react'
 import { useSEO, seoConfigs } from '../hooks/useSEO'
 
 function HomePage() {
-  // SEO Configuration
   useSEO(seoConfigs.home)
 
   return (
     <div>
-      {/* Hero Section */}
       <section className="gradient-psychology text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -47,7 +45,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Services Preview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -107,7 +104,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* About Preview */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -166,7 +162,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-psychology text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

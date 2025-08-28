@@ -12,7 +12,6 @@ interface BreadcrumbsProps {
 }
 
 const Breadcrumbs = ({ items }: BreadcrumbsProps) => {
-  // Generate structured data for breadcrumbs
   const structuredDataItems = [
     {
       "@type": "ListItem",

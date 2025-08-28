@@ -20,7 +20,6 @@ export const useSEO = ({
   structuredData
 }: SEOProps) => {
   useEffect(() => {
-    // Update title
     document.title = title
 
     const updateMetaTag = (name: string, content: string, property?: boolean) => {
@@ -84,7 +83,6 @@ export const useSEO = ({
   }, [title, description, keywords, canonical, ogImage, noindex, structuredData])
 }
 
-// Predefined SEO configurations for different pages
 export const seoConfigs = {
   home: {
     title: 'Raquel Rodrigues - Psicóloga Online | Terapia Cognitivo-Comportamental RJ',

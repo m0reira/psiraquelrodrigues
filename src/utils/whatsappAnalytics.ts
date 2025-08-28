@@ -47,7 +47,6 @@ class WhatsAppAnalytics {
     this.events.push(fullEvent)
     this.saveEvents()
 
-    // Enviar para Google Analytics se disponível
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'whatsapp_interaction', {
         event_category: 'engagement',
@@ -57,7 +56,6 @@ class WhatsAppAnalytics {
       })
     }
 
-    // Enviar para Facebook Pixel se disponível
     if (typeof window !== 'undefined' && (window as any).fbq) {
       (window as any).fbq('track', 'Contact', {
         content_name: 'WhatsApp Contact',
@@ -132,10 +130,8 @@ class WhatsAppAnalytics {
   }
 }
 
-// Singleton instance
 export const whatsappAnalytics = new WhatsAppAnalytics()
 
-// Hook for React components
 export const useWhatsAppAnalytics = () => {
   const trackClick = (service?: 'individual' | 'couple' | 'development', source: WhatsAppAnalyticsEvent['source'] = 'float_button') => {
     whatsappAnalytics.track({
