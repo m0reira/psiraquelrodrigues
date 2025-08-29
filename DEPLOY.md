@@ -27,9 +27,9 @@ nvm use
 ### 2. **Configuração do Vite** ✅ (Já configurado)
 O arquivo `vite.config.ts` já está configurado com:
 ```typescript
-base: '/psiraquelrodrigues/',
+base: '/',
 ```
-> **⚠️ Importante**: Substitua `psiraquelrodrigues` pelo nome exato do seu repositório no GitHub.
+> **✅ Configurado**: O projeto está configurado para deploy na raiz do domínio.
 
 ### 3. **GitHub Actions Workflow** ✅ (Já criado)
 O arquivo `.github/workflows/deploy.yml` foi criado e irá:
@@ -43,8 +43,8 @@ O arquivo `.github/workflows/deploy.yml` foi criado e irá:
 
 ## 🎯 Passos para Deploy
 
-### 1. **Ajustar o nome do repositório**
-No arquivo `vite.config.ts`, linha 14, altere para o nome correto do seu repositório:
+### 1. **Configuração do Deploy**
+O projeto está configurado para deploy na raiz do domínio. Se você estiver usando GitHub Pages com um repositório específico, pode ser necessário ajustar o `base` no `vite.config.ts`:
 ```typescript
 base: '/SEU-NOME-DO-REPOSITORIO/',
 ```
@@ -93,7 +93,7 @@ Para atualizar o site:
 ## 🐛 Troubleshooting
 
 ### **Problema**: Site não carrega corretamente
-**Solução**: Verifique se o `base` no `vite.config.ts` está correto com o nome do repositório.
+**Solução**: Verifique se o `base` no `vite.config.ts` está configurado corretamente para o seu domínio.
 
 ### **Problema**: GitHub Actions falha
 **Solução**: Verifique se o GitHub Pages está configurado para usar "GitHub Actions" como source.
@@ -123,7 +123,7 @@ git push
 
 Seu site ficará disponível em:
 ```
-https://SEU-USUARIO.github.io/psiraquelrodrigues/
+https://SEU-DOMINIO.com/
 ```
 
-> **💡 Dica**: Substitua `SEU-USUARIO` pelo seu username do GitHub e `psiraquelrodrigues` pelo nome real do repositório.
+> **💡 Dica**: Se estiver usando GitHub Pages, a URL será `https://SEU-USUARIO.github.io/SEU-REPOSITORIO/`

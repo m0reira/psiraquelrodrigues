@@ -6,7 +6,7 @@ import './index.css'
 
 const router = createRouter({
   routeTree,
-  basepath: (import.meta as any).env.PROD ? '/psiraquelrodrigues' : undefined
+  basepath: undefined
 })
 
 declare module '@tanstack/react-router' {
