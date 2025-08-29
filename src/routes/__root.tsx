@@ -268,7 +268,7 @@ function RootComponent() {
             </div>
 
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 Raquel Rodrigues - Psicóloga. Todos os direitos reservados.</p>
+              <p>&copy; {new Date().getFullYear()} Raquel Rodrigues - Psicóloga. Todos os direitos reservados.</p>
             </div>
           </div>
         </footer>
