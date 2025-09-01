@@ -35,8 +35,12 @@ function HomePage() {
               </div>
             </div>
             <div className="hidden md:flex justify-center lg:justify-end">
-              <div className="w-80 h-80 bg-white/20 rounded-full flex items-center justify-center">
-                <Brain className="w-32 h-32 text-white" />
+              <div className="w-96 h-96 rounded-full overflow-hidden shadow-2xl">
+                <img
+                  src="/raquelrodrigues.jpeg"
+                  alt="Raquel Rodrigues - Psicóloga"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -112,6 +116,18 @@ function HomePage() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Sobre Raquel Rodrigues
               </h2>
+
+              {/* Foto para mobile */}
+              <div className="lg:hidden flex justify-center mb-6">
+                <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
+                  <img
+                    src="/raquelrodrigues.jpeg"
+                    alt="Raquel Rodrigues - Psicóloga"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+
               <p className="text-lg text-gray-600 mb-6">
                 Psicóloga clínica com mais de 5 anos de experiência, especializada na
                 abordagem existencial-humanista que compreende o ser humano como único e livre.
@@ -121,6 +137,7 @@ function HomePage() {
                 genuína e o acolhimento são caminhos potentes para o cuidado emocional,
                 mais do que tratar sintomas, estar presente para quem busca compreender sua dor.
               </p>
+
               <Link
                 to="/sobre"
                 className="text-psychology font-semibold hover:text-blue-700 transition-colors"

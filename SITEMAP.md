@@ -10,8 +10,8 @@
 
 ### 1. Acesso Público
 Após o build, o sitemap estará disponível em:
-- **Sitemap**: `https://www.psicologaraquelrodrigues.com.br/sitemap.xml`
-- **Robots**: `https://www.psicologaraquelrodrigues.com.br/robots.txt`
+- **Sitemap**: `https://psicologaraquelrodrigues.com.br/sitemap.xml`
+- **Robots**: `https://psicologaraquelrodrigues.com.br/robots.txt`
 
 ### 2. Atualização Automática
 Para atualizar o sitemap com a data atual:
@@ -33,7 +33,7 @@ npm run build
 
 ### 2. Envie o Sitemap
 - Na barra lateral, clique em "Sitemaps"
-- Adicione: `https://www.psicologaraquelrodrigues.com.br/sitemap.xml`
+- Adicione: `https://psicologaraquelrodrigues.com.br/sitemap.xml`
 - Clique em "Enviar"
 
 ### 3. Monitoramento

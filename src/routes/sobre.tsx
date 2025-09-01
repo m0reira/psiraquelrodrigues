@@ -23,8 +23,12 @@ function AboutPage() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-48 h-48 md:w-80 md:h-80 bg-white/20 rounded-full flex items-center justify-center">
-                <Heart className="w-20 h-20 md:w-32 md:h-32 text-white" />
+              <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl">
+                <img
+                  src="/psicologaraquelrodrigues.jpeg"
+                  alt="Raquel Rodrigues - Psicóloga Clínica"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>

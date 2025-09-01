@@ -17,13 +17,13 @@ const Breadcrumbs = ({ items }: BreadcrumbsProps) => {
       "@type": "ListItem",
       "position": 1,
       "name": "Início",
-      "item": "https://raquelrodrigues.com.br"
+              "item": "https://psicologaraquelrodrigues.com.br"
     },
     ...items.map((item, index) => ({
       "@type": "ListItem",
       "position": index + 2,
       "name": item.name,
-      "item": `https://raquelrodrigues.com.br${item.href}`
+              "item": `https://psicologaraquelrodrigues.com.br${item.href}`
     }))
   ]
 

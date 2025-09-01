@@ -13,12 +13,12 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           return {
             "@context": "https://schema.org",
             "@type": "Person",
-            "@id": "https://raquelrodrigues.com.br/#psychologist",
+            "@id": "https://psicologaraquelrodrigues.com.br/#psychologist",
             "name": "Raquel Rodrigues",
             "jobTitle": "Psicóloga",
             "description": "Psicóloga especializada em terapia existencial-humanista online, ansiedade, depressão e terapia de casal por videochamada",
-            "url": "https://raquelrodrigues.com.br",
-            "image": "https://raquelrodrigues.com.br/raquel-rodrigues.jpg",
+                    "url": "https://psicologaraquelrodrigues.com.br",
+        "image": "https://psicologaraquelrodrigues.com.br/raquelrodrigues.jpeg",
             "telephone": "+5521969553695",
             "email": "psi.raquelrodrigues@gmail.com",
             "address": {
@@ -69,10 +69,10 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           return {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
-            "@id": "https://raquelrodrigues.com.br/#organization",
+            "@id": "https://psicologaraquelrodrigues.com.br/#organization",
             "name": "Raquel Rodrigues - Psicóloga",
             "description": "Consultório de psicologia online especializado em terapia existencial-humanista por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
-            "url": "https://raquelrodrigues.com.br",
+            "url": "https://psicologaraquelrodrigues.com.br",
             "telephone": "+5521969553695",
             "email": "psi.raquelrodrigues@gmail.com",
             "address": {
@@ -110,7 +110,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             },
             "serviceType": "Psicologia Clínica",
             "provider": {
-              "@id": "https://raquelrodrigues.com.br/#psychologist"
+              "@id": "https://psicologaraquelrodrigues.com.br/#psychologist"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -154,11 +154,11 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           return {
             "@context": "https://schema.org",
             "@type": "MedicalService",
-            "@id": "https://raquelrodrigues.com.br/#service",
+            "@id": "https://psicologaraquelrodrigues.com.br/#service",
             "name": data?.name || "Serviços de Psicologia",
             "description": data?.description || "Atendimento psicológico especializado",
             "provider": {
-              "@id": "https://raquelrodrigues.com.br/#psychologist"
+              "@id": "https://psicologaraquelrodrigues.com.br/#psychologist"
             },
             "serviceType": "Psicologia",
             "areaServed": "Rio de Janeiro, RJ",
