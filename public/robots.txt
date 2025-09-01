@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.psicologaraquelrodrigues.com.br/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow important directories
+Allow: /sobre
+Allow: /servicos
+Allow: /contato
+
+# Allow static assets
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
