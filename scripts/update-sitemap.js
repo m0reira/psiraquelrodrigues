@@ -5,7 +5,7 @@ import path from 'path';
 
 const DOMAIN = 'https://psicologaraquelrodrigues.com.br';
 const ROUTES = [
-  { path: '/', priority: '1.0', changefreq: 'weekly' },
+  { path: '', priority: '1.0', changefreq: 'weekly' },
   { path: '/sobre', priority: '0.8', changefreq: 'monthly' },
   { path: '/servicos', priority: '0.8', changefreq: 'monthly' },
   { path: '/contato', priority: '0.7', changefreq: 'monthly' }
