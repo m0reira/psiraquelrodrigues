@@ -1,6 +1,6 @@
 import { createRootRoute, Link, Outlet, useLocation } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
-import { Menu, X, Phone, Mail, MessageCircle, Users, Heart } from 'lucide-react'
+import { Menu, X, Phone, Mail, MessageCircle, Users, Heart, Home } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import WhatsAppFloat from '../components/WhatsAppFloat'
 import { useWhatsAppAnalytics } from '../utils/whatsappAnalytics'
@@ -48,6 +48,39 @@ function RootComponent() {
 
   const handleMenuLinkClick = () => {
     setIsMenuOpen(false)
+  }
+
+  const getBottomBarItems = () => {
+    const currentPath = location.pathname
+
+    // Se estiver na home, não mostra o botão de início
+    if (currentPath === '/') {
+      return [
+        { to: '/sobre', icon: Users, label: 'Sobre', isActive: false },
+        { to: '/servicos', icon: Heart, label: 'Serviços', isActive: false },
+        { to: '/contato', icon: Phone, label: 'Contato', isActive: false },
+        {
+          href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de agendar uma consulta.',
+          icon: MessageCircle,
+          label: 'WhatsApp',
+          isExternal: true
+        }
+      ]
+    }
+
+    // Se não estiver na home, o primeiro item é sempre o botão de início
+    return [
+      { to: '/', icon: Home, label: 'Início', isActive: false },
+      ...(currentPath !== '/sobre' ? [{ to: '/sobre', icon: Users, label: 'Sobre', isActive: false }] : []),
+      ...(currentPath !== '/servicos' ? [{ to: '/servicos', icon: Heart, label: 'Serviços', isActive: false }] : []),
+      ...(currentPath !== '/contato' ? [{ to: '/contato', icon: Phone, label: 'Contato', isActive: false }] : []),
+      {
+        href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de agendar uma consulta.',
+        icon: MessageCircle,
+        label: 'WhatsApp',
+        isExternal: true
+      }
+    ]
   }
 
   return (
@@ -281,36 +314,35 @@ function RootComponent() {
         isBottomBarVisible ? 'translate-y-0' : 'translate-y-full'
       }`}>
         <div className="flex justify-around items-center">
-          <Link
-            to="/sobre"
-            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
-          >
-            <Users className="w-5 h-5 mb-1" />
-            <span className="text-xs">Sobre</span>
-          </Link>
-          <Link
-            to="/servicos"
-            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
-          >
-            <Heart className="w-5 h-5 mb-1" />
-            <span className="text-xs">Serviços</span>
-          </Link>
-          <Link
-            to="/contato"
-            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
-          >
-            <Phone className="w-5 h-5 mb-1" />
-            <span className="text-xs">Contato</span>
-          </Link>
-          <a
-            href="https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de agendar uma consulta."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
-          >
-            <MessageCircle className="w-5 h-5 mb-1" />
-            <span className="text-xs">WhatsApp</span>
-          </a>
+          {getBottomBarItems().map((item, index) => {
+            const IconComponent = item.icon
+
+            if (item.isExternal) {
+              return (
+                <a
+                  key={index}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
+                >
+                  <IconComponent className="w-5 h-5 mb-1" />
+                  <span className="text-xs">{item.label}</span>
+                </a>
+              )
+            }
+
+            return (
+              <Link
+                key={index}
+                to={item.to}
+                className="flex flex-col items-center py-2 px-3 text-gray-600 hover:text-psychology transition-colors"
+              >
+                <IconComponent className="w-5 h-5 mb-1" />
+                <span className="text-xs">{item.label}</span>
+              </Link>
+            )
+          })}
         </div>
       </nav>
 
