@@ -15,5 +15,8 @@
         }
       ]
     }
-  ]
+  ],
+  "analytics": {
+    "enabled": true
+  }
 }
