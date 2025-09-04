@@ -85,29 +85,29 @@ export const useSEO = ({
 
 export const seoConfigs = {
   home: {
-    title: 'Raquel Rodrigues - Psicóloga Online | Terapia Existencial-Humanista RJ',
-    description: 'Psicóloga Raquel Rodrigues - Atendimento online e presencial no Rio de Janeiro. Especialista em terapia existencial-humanista, ansiedade, depressão e terapia de casal. Consultas por videochamada com a mesma eficácia. Orçamento personalizado.',
+    title: 'Raquel Rodrigues - Psicóloga Online | Ansiedade, Depressão e Relacionamentos',
+    description: 'Psicóloga Raquel Rodrigues - Atendimento online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
     keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia existencial-humanista, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, orçamento personalizado',
     canonical: 'https://psicologaraquelrodrigues.com.br'
   },
 
   sobre: {
-    title: 'Sobre Raquel Rodrigues - Psicóloga Online Especialista em Existencial-Humanista | Rio de Janeiro',
-    description: 'Conheça a trajetória da psicóloga Raquel Rodrigues. Especialista em Terapia Existencial-Humanista com mais de 8 anos de experiência clínica. Atendimento online e presencial no Rio de Janeiro com a mesma qualidade terapêutica.',
+    title: 'Raquel Rodrigues - Psicóloga Online | Ansiedade, Depressão e Relacionamentos',
+    description: 'Sobre Raquel Rodrigues. Consulta online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
     keywords: 'raquel rodrigues, psicóloga online, terapia existencial-humanista online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
     canonical: 'https://psicologaraquelrodrigues.com.br/sobre'
   },
 
   servicos: {
-    title: 'Psicologia Online | Terapia Individual, Casal por Videochamada - RJ',
-    description: 'Serviços de psicologia online e presencial: Terapia Individual por videochamada (R$ 150), Terapia de Casal online (R$ 200), Desenvolvimento Pessoal virtual (R$ 130). Atendimento psicológico à distância com a mesma eficácia do presencial.',
+    title: 'Raquel Rodrigues - Psicóloga Online | Ansiedade, Depressão e Relacionamentos',
+    description: 'Serviços de psicologia online: Atendimento psicológico à distância com a mesma eficácia do presencial. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
     keywords: 'psicologia online, terapia individual online, terapia de casal online, desenvolvimento pessoal online, videochamada psicologia, consulta virtual, preços psicologia online, rio de janeiro, atendimento psicológico virtual',
     canonical: 'https://psicologaraquelrodrigues.com.br/servicos'
   },
 
   contato: {
-    title: 'Agende sua Consulta Online | Psicóloga Raquel Rodrigues RJ',
-    description: 'Entre em contato com a psicóloga Raquel Rodrigues. Orçamento personalizado por videochamada. Atendimento virtual e presencial no Rio de Janeiro. WhatsApp: (21) 96955-3695. Flexibilidade de horários para consultas online.',
+    title: 'Raquel Rodrigues - Psicóloga Online | Agende sua Consulta Online',
+    description: 'Entre em contato com a psicóloga Raquel Rodrigues. Atendimento online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
     keywords: 'contato psicóloga online, orçamento personalizado online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online',
     canonical: 'https://psicologaraquelrodrigues.com.br/contato'
   }

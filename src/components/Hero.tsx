@@ -8,7 +8,7 @@ export function Hero() {
           <div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Raquel Rodrigues
-              <span className="block text-yellow-300 text-3xl md:text-4xl">Psicóloga Online</span>
+              <span className="block text-yellow-300 text-3xl md:text-4xl mt-2">Psicóloga Online</span>
               <span className="block text-xl md:text-2xl text-blue-200 mt-2">Tratamentos de ansiedade, depressão e relacionamentos</span>
             </h1>
             <p className="text-xl mb-8 text-blue-100">
