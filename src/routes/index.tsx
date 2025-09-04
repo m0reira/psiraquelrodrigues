@@ -14,7 +14,7 @@ function HomePage() {
                             <h1 className="text-4xl md:text-6xl font-bold mb-6">
                 Raquel Rodrigues
                 <span className="block text-yellow-300 text-3xl md:text-4xl">Psicóloga Online</span>
-                <span className="block text-xl md:text-2xl text-blue-200 mt-2"> Abordagem existencial-humanista</span>
+                <span className="block text-xl md:text-2xl text-blue-200 mt-2">Tratamentos de ansiedade, depressão e relacionamentos</span>
               </h1>
               <p className="text-xl mb-8 text-blue-100">
                 Atendimento psicológico para crianças, adultos e idosos, de forma online ou presencial.
@@ -24,13 +24,13 @@ function HomePage() {
                   to="/contato"
                   className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-center"
                 >
-                  Agendar Consulta
+                  Converse comigo
                 </Link>
                 <Link
                   to="/sobre"
                   className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
                 >
-                  Conheça-me
+                  Saiba mais sobre mim
                 </Link>
               </div>
             </div>

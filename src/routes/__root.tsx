@@ -53,7 +53,6 @@ function RootComponent() {
   const getBottomBarItems = () => {
     const currentPath = location.pathname
 
-    // Se estiver na home, não mostra o botão de início
     if (currentPath === '/') {
       return [
         { to: '/sobre', icon: Users, label: 'Sobre', isActive: false },
@@ -68,7 +67,6 @@ function RootComponent() {
       ]
     }
 
-    // Se não estiver na home, o primeiro item é sempre o botão de início
     return [
       { to: '/', icon: Home, label: 'Início', isActive: false },
       ...(currentPath !== '/sobre' ? [{ to: '/sobre', icon: Users, label: 'Sobre', isActive: false }] : []),
