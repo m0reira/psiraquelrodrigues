@@ -81,7 +81,7 @@ const WhatsAppFloat = () => {
 
             <button
               onClick={() => {
-                sendCustomMessage("Olá! Gostaria de conversar sobre os serviços oferecidos.")
+                sendCustomMessage("Olá! Gostaria de conversar sobre como funciona a terapia.")
                 setIsExpanded(false)
               }}
               className="w-full bg-green-500 text-white p-3 rounded-lg font-semibold hover:bg-green-600 transition-colors flex items-center justify-center space-x-2 mt-3"
@@ -110,7 +110,7 @@ const WhatsAppFloat = () => {
 
         {!isExpanded && (
           <div className="absolute right-16 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-            Fale conosco no WhatsApp
+            Fale comigo no WhatsApp
             <div className="absolute left-full top-1/2 -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
           </div>
         )}

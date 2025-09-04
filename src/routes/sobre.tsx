@@ -35,35 +35,35 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="py-10 md:py-20 bg-white">
+      <section className="py-10 md:py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 md:mb-12">Quem sou eu?</h2>
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 md:mb-8">Quem sou eu?</h2>
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Sou Raquel Rodrigues, psicóloga clínica com registro no Conselho Regional de Psicologia
               do Rio de Janeiro (CRP 05/58703). Atuo há mais de 5 anos oferecendo atendimento psicológico para crianças,
               adultos e idosos, de forma online e presencial.
             </p>
 
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Minha atuação é fundamentada na abordagem existencial-humanista, que compreende o ser humano
               como único, livre e em constante construção.
             </p>
 
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Ao longo da minha trajetória, venho me aprofundando no acompanhamento de questões como
               ansiedade (TAG, síndrome do pânico), depressão, luto, transtorno bipolar e transtorno de
               personalidade borderline. Acredito que a escuta genuína e o acolhimento são caminhos potentes
-              para o cuidado emocional.
+              para o cuidado emocional 💜
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-10 md:py-20 bg-white">
+      <section className="py-8 md:py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center">
@@ -136,16 +136,10 @@ function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/contato"
-              className="bg-psychology text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              href="https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de conversar com você. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários."
+              className="border-2 border-psychology text-psychology px-8 py-3 rounded-lg font-semibold hover:bg-psychology hover:text-blue-600 transition-colors"
             >
-              Agendar Consulta
-            </a>
-            <a
-              href="tel:+5521969553695"
-              className="border-2 border-psychology text-psychology px-8 py-3 rounded-lg font-semibold hover:bg-psychology hover:text-white transition-colors"
-            >
-              Ligar Agora
+              Enviar mensagem
             </a>
           </div>
         </div>

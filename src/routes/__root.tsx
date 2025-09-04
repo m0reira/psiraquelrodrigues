@@ -59,7 +59,7 @@ function RootComponent() {
         { to: '/servicos', icon: Heart, label: 'Serviços', isActive: false },
         { to: '/contato', icon: Phone, label: 'Contato', isActive: false },
         {
-          href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de agendar uma consulta.',
+          href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de conversar com você sobre como funciona a terapia.',
           icon: MessageCircle,
           label: 'WhatsApp',
           isExternal: true
@@ -73,7 +73,7 @@ function RootComponent() {
       ...(currentPath !== '/servicos' ? [{ to: '/servicos', icon: Heart, label: 'Serviços', isActive: false }] : []),
       ...(currentPath !== '/contato' ? [{ to: '/contato', icon: Phone, label: 'Contato', isActive: false }] : []),
       {
-        href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de agendar uma consulta.',
+        href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de conversar com você sobre como funciona a terapia.',
         icon: MessageCircle,
         label: 'WhatsApp',
         isExternal: true
