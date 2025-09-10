@@ -85,30 +85,30 @@ export const useSEO = ({
 
 export const seoConfigs = {
   home: {
-    title: 'Raquel Rodrigues - Psicóloga Online | Ansiedade, Depressão e Relacionamentos',
-    description: 'Psicóloga Raquel Rodrigues - Atendimento online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
-    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia existencial-humanista, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, orçamento personalizado',
+    title: 'Raquel Rodrigues | Psicóloga Online',
+    description: 'Psicóloga Raquel Rodrigues - Terapia online. Ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
+    keywords: 'psicóloga online, terapia online, psicóloga rio de janeiro, terapia existencial-humanista, ansiedade, depressão, terapia de casal online, videochamada psicologia, consulta psicológica online, orçamento personalizado, psicologo, ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades',
     canonical: 'https://psicologaraquelrodrigues.com.br'
   },
 
   sobre: {
-    title: 'Raquel Rodrigues - Psicóloga Online | Ansiedade, Depressão e Relacionamentos',
-    description: 'Sobre Raquel Rodrigues. Consulta online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
-    keywords: 'raquel rodrigues, psicóloga online, terapia existencial-humanista online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual',
+    title: 'Raquel Rodrigues | Psicóloga Online',
+    description: 'Sobre Raquel Rodrigues. Consulta online. Ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
+    keywords: 'raquel rodrigues, psicóloga online, terapia existencial-humanista online, formação psicologia, experiência clínica, rio de janeiro, atendimento virtual, psicologo, ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades',
     canonical: 'https://psicologaraquelrodrigues.com.br/sobre'
   },
 
   servicos: {
-    title: 'Raquel Rodrigues - Psicóloga Online | Ansiedade, Depressão e Relacionamentos',
-    description: 'Serviços de psicologia online: Atendimento psicológico à distância com a mesma eficácia do presencial. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
-    keywords: 'psicologia online, terapia individual online, terapia de casal online, desenvolvimento pessoal online, videochamada psicologia, consulta virtual, preços psicologia online, rio de janeiro, atendimento psicológico virtual',
+    title: 'Raquel Rodrigues | Psicóloga Online',
+    description: 'Serviços de psicologia online: Terapia online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
+    keywords: 'psicologia online, terapia individual online, terapia de casal online, desenvolvimento pessoal online, videochamada psicologia, consulta virtual, preços psicologia online, rio de janeiro, atendimento psicológico virtual, psicologo, ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades',
     canonical: 'https://psicologaraquelrodrigues.com.br/servicos'
   },
 
   contato: {
-    title: 'Raquel Rodrigues - Psicóloga Online | Agende sua Consulta Online',
-    description: 'Entre em contato com a psicóloga Raquel Rodrigues. Atendimento online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
-    keywords: 'contato psicóloga online, orçamento personalizado online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online',
+    title: 'Raquel Rodrigues | Psicóloga Online',
+    description: 'Entre em contato com a psicóloga Raquel Rodrigues. Terapia online. Tratamentos de ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades.',
+    keywords: 'contato psicóloga online, orçamento personalizado online, whatsapp psicóloga, videochamada psicologia, consulta virtual, rio de janeiro, raquel rodrigues, agendamento online, psicologo, ansiedade, depressão, relacionamentos, TDAH, transtornos de personalidade e neurodiversidades',
     canonical: 'https://psicologaraquelrodrigues.com.br/contato'
   }
 }

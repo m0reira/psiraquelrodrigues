@@ -16,7 +16,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@id": "https://psicologaraquelrodrigues.com.br/#psychologist",
             "name": "Raquel Rodrigues",
             "jobTitle": "Psicóloga",
-            "description": "Psicóloga especializada em terapia existencial-humanista online, ansiedade, depressão e terapia de casal por videochamada",
+            "description": "Psicóloga Online - Raquel Rodrigues | Terapia online para ansiedade, depressão e relacionamentos.",
                     "url": "https://psicologaraquelrodrigues.com.br",
         "image": "https://psicologaraquelrodrigues.com.br/raquelrodrigues.jpeg",
             "telephone": "+5521969553695",
@@ -71,7 +71,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@type": "ProfessionalService",
             "@id": "https://psicologaraquelrodrigues.com.br/#organization",
             "name": "Raquel Rodrigues - Psicóloga",
-            "description": "Consultório de psicologia online especializado em terapia existencial-humanista por videochamada, atendimento virtual de ansiedade, depressão e terapia de casal",
+            "description": "Psicóloga Online - Raquel Rodrigues | Terapia online para ansiedade, depressão e relacionamentos.",
             "url": "https://psicologaraquelrodrigues.com.br",
             "telephone": "+5521969553695",
             "email": "psi.raquelrodrigues@gmail.com",
@@ -156,7 +156,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
             "@type": "MedicalService",
             "@id": "https://psicologaraquelrodrigues.com.br/#service",
             "name": data?.name || "Serviços de Psicologia",
-            "description": data?.description || "Atendimento psicológico especializado",
+            "description": data?.description || "Psicóloga Online - Raquel Rodrigues | Terapia online para ansiedade, depressão e relacionamentos.",
             "provider": {
               "@id": "https://psicologaraquelrodrigues.com.br/#psychologist"
             },
