@@ -14,38 +14,20 @@ interface WhatsAppMessage {
 
 export const useWhatsApp = (config: WhatsAppConfig = {
   phoneNumber: '5521969553695',
-  defaultMessage: 'Olá! Vim através do seu site e gostaria de conversar com você. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários.'
+  defaultMessage: 'Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online.'
 }) => {
   const analytics = useWhatsAppAnalytics()
 
   const generateMessage = useCallback((messageConfig: WhatsAppMessage): string => {
     switch (messageConfig.type) {
       case 'appointment':
-        if (messageConfig.service === 'individual') {
-          return 'Olá! Vim através do seu site e gostaria de agendar uma consulta de terapia individual. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários. Quando você tem disponibilidade para uma primeira consulta?'
-        }
-        if (messageConfig.service === 'couple') {
-          return 'Olá! Vim através do seu site e gostaria de agendar uma consulta de terapia de casal. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários. Quando vocês têm disponibilidade para uma primeira consulta?'
-        }
-        if (messageConfig.service === 'development') {
-          return 'Olá! Vim através do seu site e gostaria de agendar uma consulta focada em desenvolvimento pessoal. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários. Quando você tem disponibilidade para uma primeira consulta?'
-        }
-        return 'Olá! Vim através do seu site e gostaria de solicitar um orçamento personalizado para terapia. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários.'
+        return 'Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online.'
 
       case 'info':
-        if (messageConfig.service === 'individual') {
-          return 'Olá! Gostaria de saber mais informações sobre a terapia individual: valores, duração e como funciona.'
-        }
-        if (messageConfig.service === 'couple') {
-          return 'Olá! Gostaria de saber mais informações sobre a terapia de casal: valores, duração e como funciona.'
-        }
-        if (messageConfig.service === 'development') {
-          return 'Olá! Gostaria de saber mais informações sobre o trabalho de desenvolvimento pessoal: valores, duração e como funciona.'
-        }
-        return 'Olá! Gostaria de saber mais informações sobre os serviços oferecidos.'
+        return 'Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online.'
 
       case 'emergency':
-        return 'Olá! Estou passando por um momento difícil e gostaria de saber se há possibilidade de um atendimento mais urgente. Tenho interesse em saber mais sobre valores, duração das sessões e sua disponibilidade de horários.'
+        return 'Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online.'
 
       case 'custom':
         return messageConfig.message || config.defaultMessage

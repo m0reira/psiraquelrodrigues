@@ -59,7 +59,7 @@ function RootComponent() {
         { to: '/servicos', icon: Heart, label: 'Serviços', isActive: false },
         { to: '/contato', icon: Phone, label: 'Contato', isActive: false },
         {
-          href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de conversar com você sobre como funciona a terapia.',
+          href: 'https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online.',
           icon: MessageCircle,
           label: 'WhatsApp',
           isExternal: true
@@ -73,7 +73,7 @@ function RootComponent() {
       ...(currentPath !== '/servicos' ? [{ to: '/servicos', icon: Heart, label: 'Serviços', isActive: false }] : []),
       ...(currentPath !== '/contato' ? [{ to: '/contato', icon: Phone, label: 'Contato', isActive: false }] : []),
       {
-        href: 'https://wa.me/5521969553695?text=Olá! Vim através do seu site e gostaria de conversar com você sobre como funciona a terapia.',
+        href: 'https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online.',
         icon: MessageCircle,
         label: 'WhatsApp',
         isExternal: true
@@ -135,7 +135,7 @@ function RootComponent() {
 
               <div className="hidden lg:flex items-center space-x-4">
                 <a
-                  href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                  href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors cursor-pointer"
@@ -198,7 +198,7 @@ function RootComponent() {
                 </nav>
                 <div className="mt-4 pt-4 border-t space-y-2">
                   <a
-                    href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                    href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors"
@@ -241,7 +241,7 @@ function RootComponent() {
                   oferecendo atendimento humanizado e personalizado.
                 </p>
                 <a
-                  href="https://wa.me/5521969553695?text=Olá! Gostaria de agendar uma consulta com a Psicóloga Raquel Rodrigues."
+                  href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-gray-300 hover:text-green-400 transition-colors"
