@@ -138,9 +138,12 @@ function RootComponent() {
                   href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    console.log("Clique no whatsapp")
+                    trackClick(undefined, 'home_page')
+                  }}
                   className="flex items-center space-x-2 text-sm text-gray-600 hover:text-green-600 transition-colors cursor-pointer"
                   title="Clique para abrir no WhatsApp"
-                  onClick={() => trackClick(undefined, 'home_page')}
                 >
                   <Phone className="h-4 w-4" />
                   <span>(21) 96955-3695</span>
@@ -244,9 +247,12 @@ function RootComponent() {
                   href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    console.log("Clique no whatsapp")
+                    trackClick(undefined, 'home_page')
+                  }}
                   className="flex items-center space-x-2 text-gray-300 hover:text-green-400 transition-colors"
                   title="Clique para abrir no WhatsApp"
-                  onClick={() => trackClick(undefined, 'home_page')}
                 >
                   <Phone className="h-4 w-4" />
                   <span>(21) 96955-3695</span>

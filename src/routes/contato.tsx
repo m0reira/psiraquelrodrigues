@@ -215,6 +215,7 @@ _Enviado através do formulário do site_`
                         href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => console.log("Clique no whatsapp")}
                         className="bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors inline-flex items-center space-x-2"
                       >
                         <MessageCircle className="w-4 h-4" />

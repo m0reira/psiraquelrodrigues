@@ -42,6 +42,7 @@ export const useWhatsApp = (config: WhatsAppConfig = {
     const encodedMessage = encodeURIComponent(message)
     const whatsappUrl = `https://wa.me/${config.phoneNumber}?text=${encodedMessage}`
 
+    console.log("Clique no whatsapp")
     analytics.trackMessageSent(messageConfig.service, source)
 
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer')

@@ -19,6 +19,7 @@ export function Hero() {
                 href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => console.log("Clique no whatsapp")}
                 className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-center"
               >
                 Converse comigo

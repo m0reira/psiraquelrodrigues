@@ -137,6 +137,7 @@ function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/5521969553695?text=Olá! eu vim do seu site e gostaria de ter mais informações sobre a terapia online."
+              onClick={() => console.log("Clique no whatsapp")}
               className="border-2 border-psychology text-psychology px-8 py-3 rounded-lg font-semibold hover:bg-psychology hover:text-blue-600 transition-colors"
             >
               Enviar mensagem
