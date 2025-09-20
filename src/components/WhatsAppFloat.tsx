@@ -94,6 +94,7 @@ const WhatsAppFloat = () => {
       )}
 
       <div className="relative">
+
         <button
           onClick={() => setIsExpanded(!isExpanded)}
           className="w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group"
@@ -101,19 +102,12 @@ const WhatsAppFloat = () => {
         >
           <MessageCircle className="w-6 h-6" />
 
-          <div className="absolute inset-0 rounded-full bg-green-500 animate-ping opacity-20"></div>
+          <div className="absolute inset-0 rounded-full bg-green-500 animate-ping opacity-20" style={{ animationDuration: '3s' }}></div>
         </button>
 
         <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-white flex items-center justify-center">
-          <div className="w-2 h-2 bg-green-600 rounded-full animate-pulse"></div>
+          <div className="w-2 h-2 bg-green-600 rounded-full animate-pulse" style={{ animationDuration: '2s' }}></div>
         </div>
-
-        {!isExpanded && (
-          <div className="absolute right-16 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-            Fale comigo no WhatsApp
-            <div className="absolute left-full top-1/2 -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
-          </div>
-        )}
       </div>
 
       {isExpanded && (
